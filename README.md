@@ -6,8 +6,10 @@
 ```
 # clone this repository
 git clone https://github.com/jdansev/GUI-Ontology-Traversal
+
 # go into the directory
 cd GUI-Ontology-Traversal
+
 # start the server
 python3 manage.py runserver
 ```
