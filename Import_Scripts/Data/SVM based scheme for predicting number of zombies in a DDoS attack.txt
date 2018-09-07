@@ -1,0 +1,7 @@
+DDoS 71.43%
+service 28.57%
+
+support vector machine
+
+In order to design and develop reliable and secure network services , rapid detection and quick response to these attacks are major concern .
+In this paper , we present machine learning approach based on support vector machine for regression to predict the number of zombies in a DDoS attack .

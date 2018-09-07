@@ -1,0 +1,7 @@
+DDoS 80.00%
+time 20.00%
+
+Interface Based Rate Limiting ( IBRL ) algorithm
+
+Based on the assumption that the attacker flows are very aggressive than the legitimate users the proposed work provides sufficient bandwidth to genuine users during flooding DDoS attack .
+The Interface Based Rate Limiting ( IBRL ) algorithm proposed in this paper is used to mitigate the identified DDoS attacks .

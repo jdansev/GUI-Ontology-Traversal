@@ -1,0 +1,6 @@
+injection 75.00%
+SQL 25.00%
+
+SQL Proxy-based Blocker ( SQLProb )
+
+To curtail the attackers ' ability to generate such attacks , we propose an SQL Proxy-based Blocker ( SQLProb ) .

@@ -1,0 +1,6 @@
+Sybil 100.00%
+
+adaptive computational puzzles
+
+To address this problem , we propose the use of adaptive computational puzzles as an approach to limit the spread of Sybils .
+An in-depth analysis of both ( i ) the performance of our mechanism under various parameter and environment settings , and ( ii ) the results achieved with an experimental evaluation , considering real-life traces from a Peer-to-Peer file sharing community , has shown the effectiveness of the proposed mechanism in limiting the spread of Sybil identities .

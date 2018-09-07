@@ -1,0 +1,6 @@
+DDoS 100.00%
+
+IP Flow feature value ( FFV ) algorithm
+
+The IP Flow feature value ( FFV ) algorithm is proposed based on the essential features of DDoS attacks , such as the abrupt traffic change , flow dissymmetry , distributed source IP addresses and concentrated target IP addresses .
+Furthermore , an alert evaluation mechanism is developed to reduce the false positives due to prediction error and flow noise .

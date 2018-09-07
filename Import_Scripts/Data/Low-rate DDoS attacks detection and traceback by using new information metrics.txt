@@ -1,0 +1,9 @@
+﻿DDoS 100.00%
+
+information metrics
+
+In this paper , we innovatively propose using two new information metrics such as the generalized entropy metric and the information distance metric to detect low-rate DDoS attacks by measuring the difference between legitimate traffic and attack traffic .
+The proposed generalized entropy metric can detect attacks several hops earlier ( three hops earlier while the order α = 10 ) than the traditional Shannon metric .
+The proposed information distance metric outperforms ( six hops earlier while the order α = 10 ) the popular KullbackLeibler divergence approach as it can clearly enlarge the adjudication distance and then obtain the optimal detection sensitivity .
+The experimental results show that the proposed information metrics can effectively detect low-rate DDoS attacks and clearly reduce the false positive rate .
+Furthermore , the proposed IP traceback algorithm can find all attacks as well as attackers from their own local area networks ( LANs ) and discard attack traffic . © 2011 IEEE .

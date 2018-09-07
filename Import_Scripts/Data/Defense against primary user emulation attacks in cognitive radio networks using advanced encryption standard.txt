@@ -1,0 +1,8 @@
+emulation 100.00%
+
+AES-assisted DTV scheme
+
+We propose a reliable AES-assisted DTV scheme , in which an AES-encrypted reference signal is generated at the TV transmitter and used as the sync bits of the DTV data frames .
+In addition , when combined with the analysis on the autocorrelation of the received signal , the presence of the malicious user can be detected accurately whether or not the primary user is present .
+We analyze the effectiveness of the proposed approach through both theoretical analysis and simulation examples .
+It should be emphasized that the proposed scheme requires no changes in hardware or system structure except for a plug-in AES chip .

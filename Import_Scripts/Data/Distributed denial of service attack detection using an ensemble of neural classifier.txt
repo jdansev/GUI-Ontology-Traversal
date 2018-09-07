@@ -1,0 +1,7 @@
+DDoS 50.00%
+service 50.00%
+
+RBP classifier
+
+The improvement in performance of the RBP classifier is the focus of this paper .
+Our proposed classification algorithm , RBPBoost , is achieved by combining ensemble of classifier outputs and Neyman Pearson cost minimization strategy , for final classification decision .

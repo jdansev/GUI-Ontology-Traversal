@@ -1,0 +1,7 @@
+﻿DoS 50.00%
+service 50.00%
+
+Tsallis entropy
+
+﻿Use of Tsallis entropy in detection of SYN flood DoS attacks . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84930024739 & doi=10.1002 % 2fsec.1286 & partnerID=40 & md5=c861fbde95bb2fe8821c484ea0afef95 ABSTRACT : In this paper , we present results of application of Tsallis entropy in detection of denial of service attacks .
+A simple packet distribution , that is , entropy of source addresses are considered .

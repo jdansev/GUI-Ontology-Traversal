@@ -1,0 +1,6 @@
+﻿DDoS 80.00%
+Service 20.00%
+
+Double Check Priority Queue structure
+
+In this paper , we propose a Double Check Priority Queue structure that effectively mitigates the impact of DDoS attacks in order that normal users can still access services . © 2011 Springer-Verlag .

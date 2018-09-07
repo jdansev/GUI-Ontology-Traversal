@@ -1,0 +1,6 @@
+﻿DoS 100.00%
+
+biometric Identity Based Encryption ( IBE ) scheme
+
+﻿A new biometric identity based encryption scheme secure against DoS attacks . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-79951803930 & doi=10.1002 % 2fsec.162 & partnerID=40 & md5=fdbc86abf09e4dbd017982c316bdb03e ABSTRACT : Recently , Sarier 1 proposed an efficient biometric Identity Based Encryption ( IBE ) scheme called BIO-IBE using the Sakai Kasahara Key Construction and proved its security in the Random Oracle Model ( ROM ) based on the well-exploited k-BDHI computational problem .
+Despite its efficiency compared to other fuzzy IBE systems implemented for biometric identities , BIO-IBE is not secure against a new type of denial of service ( DoS ) attack that we present .

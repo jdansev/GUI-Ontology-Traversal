@@ -1,0 +1,6 @@
+DoS 75.00%
+resource-depletion 25.00%
+
+pattern-matching
+
+This paper addresses this common DoS attack and proposes a lightweight puzzle , based on pattern-matching .

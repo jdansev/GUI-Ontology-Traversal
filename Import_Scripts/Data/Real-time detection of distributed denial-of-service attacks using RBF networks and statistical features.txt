@@ -1,0 +1,7 @@
+﻿DDoS 66.67%
+denial-of-service 33.33%
+
+RBF networks and statistical features
+
+﻿Real-time detection of distributed denial-of-service attacks using RBF networks and statistical features . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-16644393989 & doi=10.1016 % 2fj.comnet.2004.08.014 & partnerID=40 & md5=059e9b3f4aa82eb264ef5e4f46b7b77e ABSTRACT : In this paper we present and evaluate a Radial-basis-function neural network detector for Distributed-Denial-of-Service ( DDoS ) attacks in public networks based on statistical features estimated in short-time window analysis of the incoming data packets .
+The proposed method is evaluated in a simulated public network and showed detection rate better than 98 % of DDoS attacks using only three statistical features estimated from one window of data packets of 6 s length .

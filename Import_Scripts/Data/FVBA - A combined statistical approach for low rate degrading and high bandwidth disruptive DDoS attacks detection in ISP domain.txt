@@ -1,0 +1,7 @@
+DDoS 75.00%
+Different 25.00%
+
+Flow-Volume based DDoS detection approach ( FVBA )
+
+In this paper , a novel Flow-Volume based DDoS detection approach ( FVBA ) is proposed , which deals with detection of variety of DDoS attacks by monitoring the propagation of abrupt traffic changes inside ISP Domain .
+Different attack scenarios are implemented by varying total number of zombie machines and at different attack strengths to measure effectiveness of proposed approach .

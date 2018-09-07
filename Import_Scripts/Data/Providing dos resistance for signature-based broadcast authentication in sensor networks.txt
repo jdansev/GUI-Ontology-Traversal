@@ -1,0 +1,6 @@
+﻿DoS 100.00%
+
+group-based filter and the key chain-based filter
+
+Specifically , this paper first presents two filtering techniques , the group-based filter and the key chain-based filter , to handle the DoS attacks against signature verification .
+This paper then combines these two filters and proposes a hybrid solution to further improve the performance . © 2013 ACM .

@@ -1,0 +1,6 @@
+DDoS 100.00%
+
+Hop Count
+
+Hence this research work proposes a novel approach called Hop Count based Packet processing to counter DDoS attacks .
+This number is derived by the concatenation of the 32 bits of the IP address of the router path and the encrypted value of the hop count .

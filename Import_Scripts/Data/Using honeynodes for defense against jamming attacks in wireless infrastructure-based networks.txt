@@ -1,0 +1,7 @@
+﻿jamming 100.00%
+
+honeynodes and a response mechanism
+
+In this paper , we propose a pre-emptive detection strategy using honeynodes and a response mechanism based on the existing Channel Surfing Algorithm [ Xu W , Trappe W , Zhang Y , Wood T. Channel surfing and spatial retreats : defenses against wireless denial of service .
+We have simulated the proposed approach using NS-2 .
+The experimental results further prove a marked improvement in the performance of the proposed system over the Channel Surfing Algorithm in terms of the packet delivery ratio , the jammed duration , control message overhead and the number of channel re-configurations . © 2009 Elsevier Ltd. All rights reserved .

@@ -1,0 +1,6 @@
+﻿DDoS 66.67%
+Service 33.33%
+
+multiplayer game
+
+﻿Multiplayer game for DDoS attacks resilience in ad hoc networks . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-79960925393 & doi=10.1109 % 2fWIRELESSVITAE.2011.5940931 & partnerID=40 & md5=ef755f7ea1847c183bce9aa4ae71ecff ABSTRACT : This paper proposes a multiplayer game to prevent Distributed Denial of Service attack ( DDoS ) in ad hoc networks .

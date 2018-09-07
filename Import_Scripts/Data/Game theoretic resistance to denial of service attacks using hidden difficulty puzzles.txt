@@ -1,0 +1,7 @@
+﻿DoS 50.00%
+service 50.00%
+
+hidden difficuly puzzles
+
+We propose three concrete puzzles that satisfy this requirement .
+Based on the concept of Nash equilibrium , we develop suitable defense mechanisms that are better than the existing ones . © Springer-Verlag Berlin Heidelberg 2010 .

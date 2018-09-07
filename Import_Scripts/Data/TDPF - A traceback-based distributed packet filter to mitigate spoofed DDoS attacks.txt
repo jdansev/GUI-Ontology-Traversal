@@ -1,0 +1,5 @@
+DDoS 100.00%
+
+traceback-based distributed packet filter ( TDPF )
+
+This paper proposes traceback-based distributed packet filter ( TDPF ) , a novel distributed packet filtering mechanism that employs IP traceback as a means for traffic discrimination .

@@ -1,0 +1,5 @@
+Denial of Service 100.00%
+
+DNS Attack Detection and Prevention ( DADP ) scheme
+
+As a more effective approach we present a solution called the DNS Attack Detection and Prevention ( DADP ) scheme based on the usage of a non-blocking DNS cache .

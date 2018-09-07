@@ -1,0 +1,5 @@
+DoS 100.00%
+
+history-based IP filtering layer
+
+In this paper , we propose a history-based IP filtering layer to defeat these DoS attacks by blocking the SIP packets from previously unseen sources .

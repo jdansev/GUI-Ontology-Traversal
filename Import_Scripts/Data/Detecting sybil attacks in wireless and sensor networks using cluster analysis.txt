@@ -1,0 +1,7 @@
+﻿sybil 100.00%
+
+K-means cluster analysis
+
+The traditional approach to address sybil attacks is to employ cryptographic-related methods .
+In this paper , we propose to utilize K-means cluster analysis for detecting sybil attacks based on the spatial correlation between the signal strength and physical locations .
+Our results show that the proposed sybil attack detector is highly effective with over 95 % detection rates and under 5 % false positive rates . © 2008 IEEE .

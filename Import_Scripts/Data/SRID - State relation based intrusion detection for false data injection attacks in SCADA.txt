@@ -1,0 +1,7 @@
+injection 100.00%
+
+relation-graph-based detection scheme
+
+Several intrusion detection schemes have been proposed previously [ 1 , 2 ] .
+In this paper , we propose a new relation-graph-based detection scheme to defeat false data injection attacks at the SCADA system , even when injected data may seemly fall within a valid/normal range .
+Furthermore , we propose a new inference algorithm to infer the injection point ( s ) , i.e. , the attack origin , in the system .

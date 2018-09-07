@@ -1,0 +1,7 @@
+DoS 100.00%
+
+multi-user signature-based broadcast authentication scheme
+
+This paper presents a multi-user , signature-based broadcast authentication scheme with the capability of containing such DoS attack .
+We address multi-user supporting problem with Bloom Filter .
+We propose RRAS ( Reputation-based Randomized Authentication Scheme ) to contain the DoS attack .

@@ -1,0 +1,7 @@
+﻿DDoS 100.00%
+
+cooperative overlay network and a gossip-based information exchange protocol
+
+﻿Global detection of flooding-based DDoS attacks using a cooperative overlay network . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-78650311596 & doi=10.1109 % 2fNSS.2010.68 & partnerID=40 & md5=bb8b5e463f5e05f1d2f3cc8231fa198c ABSTRACT : Flooding-based Distributed Denial of Service ( DDoS ) attacks present a serious threat to the stability of the Internet .
+In this paper , we propose a distributed defense infrastructure to detect DDoS attacks globally using a cooperative overlay network and a gossip-based information exchange protocol .
+Our NS2 based simulation results show that the proposed solution can detect attacks with a detection rate as high as 0.99 with false alarms below 0.01 .

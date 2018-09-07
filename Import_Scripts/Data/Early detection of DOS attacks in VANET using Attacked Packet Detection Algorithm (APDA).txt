@@ -1,0 +1,8 @@
+DOS 25.00%
+driver 25.00%
+security 25.00%
+Sybil 25.00%
+
+Attacked Packet Detection Algorithm ( APDA ) 
+
+In this paper we proposed an Attacked Packet Detection Algorithm ( APDA ) which is used to detect the DOS ( Denial-of-Service ) attacks before the verification time .

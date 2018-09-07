@@ -1,0 +1,6 @@
+﻿jamming 100.00%
+
+technique-Multi-Channel Ratio ( MCR ) Decoding 
+
+﻿MCR Decoding : A MIMO approach for defending against wireless jamming attacks . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84921498554 & doi=10.1109 % 2fCNS.2014.6997478 & partnerID=40 & md5=5707851df1c57b9ffa9852118163c2bd ABSTRACT : This paper presents a novel technique-Multi-Channel Ratio ( MCR ) Decoding , which aims at providing an anti-jamming wireless communication capability for multi-antenna wireless devices .
+This paper also reports the analysis , implementation , and experimental evaluations of MCR decoding on a software-defined radio platform-GNURadio and USRP , which show that the proposed MCR decoding can detect the desired transmission reliably under the jamming attack and remove jamming signals effectively in the real world environment . © 2014 IEEE .

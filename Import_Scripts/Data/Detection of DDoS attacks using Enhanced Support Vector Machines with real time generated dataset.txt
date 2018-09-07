@@ -1,0 +1,6 @@
+DDoS 75.00%
+DoS 25.00%
+
+Enhanced Support Vector Machines
+
+The focus of this paper is to generate the Distributed Denial of Service ( DDoS ) detection dataset and detect them using the Enhanced Support Vector Machines .

@@ -1,0 +1,9 @@
+﻿sybil 100.00%
+
+Trust Management Scheme ( CbTMS ) framework
+
+Sybil attacks focus on creating multiple online user identities called Sybil identities and try to achieve malicious results through these identities .
+In this paper , we proposed a Cloud based Trust Management Scheme ( CbTMS ) framework for detecting Sybil attacks in participatory sensing network .
+Our CbTMS was proposed for performing Sybil attack characteristic check and trustworthiness management system to verify coverage nodes in the participatory sensing .
+To verify the proposed framework , we are currently developing the proposed scheme on OMNeT++ network simulator in multiple scenarios to achieve Sybil identities detection in our simulation environment . © 2013 IEEE .
+To verify the proposed framework , we are currently developing the proposed scheme on OMNeT++ network simulator in multiple scenarios to achieve Sybil identities detection in our simulation environment . © 2013 IEEE .

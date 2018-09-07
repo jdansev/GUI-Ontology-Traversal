@@ -1,0 +1,10 @@
+﻿DoS 50.00%
+party 50.00%
+
+RSA-based framework
+
+In this paper , we propose a novel RSA-based framework for combating DoS attacks in WSN by ensuring that the malicious party will exhaust its resources prior to exhausting those of its counterparts .
+Under the proposed approach , the mathematical operations performed by the malicious party require two or three orders of magnitude more resources than those required by the attacked party .
+We also present three methodologies for establishing an ephemeral key , in which the proposed DoS mitigation mechanism is an embedded component .
+We also present three methodologies for establishing an ephemeral key , in which the proposed DoS mitigation mechanism is an embedded component .
+Implementation results on the Intel Mote 2 platform substantiate the clear advantages of the proposed method . © 2007 IEEE .

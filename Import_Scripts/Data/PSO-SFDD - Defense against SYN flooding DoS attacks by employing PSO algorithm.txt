@@ -1,0 +1,7 @@
+﻿DoS 75.00%
+flood 25.00%
+
+particle swarm optimization ( PSO ) algorithm
+
+Then it proposes a framework in which the defense issue is formulated as an optimization problem and employs the particle swarm optimization ( PSO ) algorithm to optimally solve this problem .
+The simulation results show that the proposed defense strategy improves the performance of the under attack system in terms of rejection probability of connection requests and efficient consumption of buffer space . © 2011 Elsevier Ltd. All rights reserved .

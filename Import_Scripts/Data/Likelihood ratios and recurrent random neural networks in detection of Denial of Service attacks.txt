@@ -1,0 +1,5 @@
+Denial of Service 100.00%
+
+traditional likelihood estimation with a recurrent random neural network ( r-RNN ) structure
+
+In this paper we propose a DoS detection technique based on observation of the incoming traffic and a combination of traditional likelihood estimation with a recurrent random neural network ( r-RNN ) structure .

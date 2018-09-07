@@ -1,0 +1,9 @@
+DoS 33.33%
+greedy 33.33%
+service 33.33%
+
+hierarchical clustering technique which elect Controlled nodes ( Cnode )
+
+In this paper , we propose an energy-preserving solution to detect compromised nodes in WSNs .
+The proposed method is based on hierarchical clustering technique which elect Controlled nodes ( Cnode ) that analyze the traffic inside a cluster and to send warnings to the cluster-head ( CH ) whenever an abnormal behavior is detected .
+The proposed method is dynamic as the Cnodes are periodically elected among ordinary nodes on each atomic cluster .

@@ -1,0 +1,8 @@
+DDoS 75.00%
+service 25.00%
+
+multiagent pattern recognition mechanism
+
+In this study , the authors propose a multiagent pattern recognition mechanism for detecting DDoS attacks , in adistributed fashion .
+Our proposed solution is very effective in detecting such attacks launched against victim servers residing inside a production network which has multiple gateways to the Internet .
+Using simulation , the authors show that our proposed mechanism achieves a high degree of accuracy in detecting DDoS attacks , with low false alarm rates , using a reasonable numbers of attack detection agents collaboratively operating in a typical production network .

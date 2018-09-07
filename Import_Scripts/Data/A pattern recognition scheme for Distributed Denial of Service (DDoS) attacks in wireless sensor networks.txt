@@ -1,0 +1,5 @@
+DDoS 100.00%
+
+Graph Neuron ( GN ) -based decentralized pattern recognition scheme
+
+We propose a Graph Neuron ( GN ) -based , decentralized pattern recognition scheme for attack detection .

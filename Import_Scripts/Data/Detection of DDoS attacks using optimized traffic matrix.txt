@@ -1,0 +1,5 @@
+DDoS 100.00%
+
+traffic matrix
+
+To cope with it , we propose an enhanced DDoS attacks detection approach by optimizing the parameters of the traffic matrix using a Genetic Algorithm ( GA ) to maximize the detection rates .

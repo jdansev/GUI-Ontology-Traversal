@@ -1,0 +1,6 @@
+Sybil 50.00%
+Denial-of-service 50.00%
+
+Bayesian algorithm and Swarm Intelligence ( SI )
+
+In this paper , the Sybil attack is analyzed and a novel prediction method , combining Bayesian algorithm and Swarm Intelligence ( SI ) is proposed .

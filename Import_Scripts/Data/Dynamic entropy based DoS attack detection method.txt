@@ -1,0 +1,5 @@
+DoS 100.00%
+
+dynamic entropy-based model
+
+This paper presents a novel dynamic entropy-based model for the detection of DoS attack .

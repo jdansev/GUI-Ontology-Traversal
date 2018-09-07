@@ -1,0 +1,6 @@
+DoS 100.00%
+
+game theory
+
+We propose a protocol based on game theory which achieves the design objectives of truthfulness by recognizing the presence of nodes that agree to forward packets but fail to do so .
+Through simulation we evaluate proposed protocol using packet throughput and the accuracy of misbehaving node detection .

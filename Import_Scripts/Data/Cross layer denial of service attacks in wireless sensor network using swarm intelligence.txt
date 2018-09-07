@@ -1,0 +1,6 @@
+﻿Denial of Service 100.00%
+
+cross-layer security mechanism
+
+This paper is an extension to the smart building access system proposed in [ 1 ] .
+In this paper , a cross-layer security mechanism is proposed to detect denial of service ( DoS ) attacks and the countermeasures taken to avoid the same without comprising any network resources . © 2006 IEEE .

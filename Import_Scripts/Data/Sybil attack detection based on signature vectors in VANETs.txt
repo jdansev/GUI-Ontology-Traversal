@@ -1,0 +1,5 @@
+Sybil 100.00%
+
+signature vectors ( SADSIV )
+
+This paper , therefore , presents a novel solution named Sybil attack detection based on signature vectors ( SADSIV ) in VANETs .

@@ -1,0 +1,3 @@
+﻿Probe
+
+In probe attacks the attacker scans the network to gather the information of computers to identify the vulnerabilities. These network probes are quite useful to an attacker who is staging a future attack. An attacker with a map of which machines and services are available on a network can use this information to look for weak points. 

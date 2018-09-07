@@ -1,0 +1,7 @@
+﻿DDoS 75.00%
+network 25.00%
+
+entropy-based detection mechanism
+
+﻿DDoS flooding attack detection through a step-by-step investigation . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84863260902 & doi=10.1109 % 2fNESEA.2011.6144944 & partnerID=40 & md5=b0dfe6ae5403655bfb8514025f9764b5 ABSTRACT : Internet users are increases , distributed denial of service ( DDoS ) attack present a very serious threat to the stability of the internet .
+In this paper , we propose the entropy-based detection mechanism against DDoS attacks in order to guarantee the transmission of normal traffic and prevent the flood of abnormal traffic .

@@ -1,0 +1,6 @@
+DoS 66.67%
+denial-of-service 33.33%
+
+congestion-triggered packet sampling/packet filtering ( CTPS/PF )
+
+We present a countermeasure against such attacks , called the congestion-triggered packet sampling/packet filtering ( CTPS/PF ) architecture .

@@ -1,0 +1,7 @@
+DDoS 100.00%
+
+Multilevel Thrust Filtration ( MTF ) mechanism
+
+In this paper , we propose 'Multilevel Thrust Filtration ( MTF ) mechanism ' as a solution , which authenticates the incoming requesters and detects the different types of DDoS attacks at different levels to detect the most intensive attack at an early stage to prevent the unnecessary traffic reaching the DC .
+A hybrid solution is proposed to detect four different kinds of attacks that have been taken into consideration .
+Profit analysis proved that the proposed mechanism is deployable at an attack-prone DC for resource protection , which would eventually result in beneficial service at slenderised revenue .

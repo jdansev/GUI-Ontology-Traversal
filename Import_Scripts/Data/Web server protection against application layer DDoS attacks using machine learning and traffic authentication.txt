@@ -1,0 +1,6 @@
+DDoS 66.67%
+tools 33.33%
+
+trained classifier in a random tree machine-learning algorithm
+
+Our focus and contributions in this paper are first , to mitigate the undetected malicious traffic mimicking legitimate traffic and developing a special anti-DDoS module for general and specific DDoS tools attacks by using a trained classifier in a random tree machine-learning algorithm .

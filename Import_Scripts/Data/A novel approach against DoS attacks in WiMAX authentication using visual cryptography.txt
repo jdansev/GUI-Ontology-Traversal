@@ -1,0 +1,5 @@
+DoS 100.00%
+
+Key Management-Rivest , Shamir , & Adleman ( PKM-RSA )
+
+An alternative for Privacy and Key Management-Rivest , Shamir , & Adleman ( PKM-RSA ) is proposed in this paper which uses visual secret sharing in a pre-authentication scenario to avoid DoS attacks caused by the large number of rogue requests .

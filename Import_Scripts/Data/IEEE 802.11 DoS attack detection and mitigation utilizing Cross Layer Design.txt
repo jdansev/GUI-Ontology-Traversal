@@ -1,0 +1,7 @@
+DoS 75.00%
+jamming 12.50%
+plain 12.50%
+
+Cross Layer Design techniques
+
+We present a complete solution using Cross Layer Design techniques to detect and identify the attackers and to mitigate the attack by minimizing the negative impact on the network .

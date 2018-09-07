@@ -1,0 +1,5 @@
+﻿DDoS 100.00%
+
+fuzzy estimator
+
+﻿Real time DDoS detection using fuzzy estimators . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84865258778 & doi=10.1016 % 2fj.cose.2012.06.002 & partnerID=40 & md5=640eb52fa7d4548634ef96940c1ead5a ABSTRACT : We propose a method for DDoS detection by constructing a fuzzy estimator on the mean packet inter arrival times .

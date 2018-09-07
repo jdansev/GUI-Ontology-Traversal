@@ -1,0 +1,5 @@
+﻿DoS 100.00%
+
+AOMDV-IDS protocol
+
+We present a AOMDV-IDS protocol for detecting a avoiding the malicious node in MANET . © 2013 IEEE .

@@ -1,0 +1,5 @@
+DDoS 100.00%
+
+software-defined security networking mechanism ( SDSNM )
+
+Then a software-defined security networking mechanism ( SDSNM ) was proposed to remove or restrict these necessary conditions which were summarized from the model .

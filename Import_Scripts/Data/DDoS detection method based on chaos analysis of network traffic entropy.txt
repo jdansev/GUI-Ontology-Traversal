@@ -1,0 +1,5 @@
+flooding 100.00%
+
+variation of Lyapunov exponent
+
+In this paper , a variation of Lyapunov exponent is proposed to detect anomalies in network traffic , based on entropy .

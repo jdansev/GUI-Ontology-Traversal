@@ -1,0 +1,8 @@
+﻿replay 100.00%
+
+Source Port sequences
+
+This project proposes a new approach over the existing Port Knocking by employing the Source Port sequences that will simplify a technique for port knocking system .
+The performance of the proposed method was evaluated by measuring the authentication time to knock the server .
+As a result , the proposed method worked faster than other methods like basic port knocking and Fwknop + SPA .
+This has shown that the proposed method was simple and at the same time against the TCP replay attack and port scanning . © 2012 IEEE .

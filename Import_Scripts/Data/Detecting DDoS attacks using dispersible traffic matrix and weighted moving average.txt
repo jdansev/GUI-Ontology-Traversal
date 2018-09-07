@@ -1,0 +1,8 @@
+﻿DDoS 100.00%
+
+dispersible traffic matrix and weighted moving average
+
+In this paper , we propose a new detection model for spoofed DDoS attacks using dispersible traffic matrix and weighted moving average .
+This proposed detection model can not only visualize network traffic streams but also describe the dispersibility characteristics of DDoS attacks such as intensity , duration and rate of DDoS traffic .
+Our approach demonstrates that it effectively detects the DDoS attacks in the early stage and in very short time , even though DDoS attacks ' streams are low .
+Also , the proposed detection model shows a good performance in terms of detection accuracy , speed , and false alarms . © 2009 Springer Berlin Heidelberg .

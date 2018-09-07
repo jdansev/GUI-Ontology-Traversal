@@ -1,0 +1,5 @@
+DDoS 100.00%
+
+packet marking approach
+
+We propose Pi ( short for path identifier ) , a new packet marking approach in which a path fingerprint is embedded in each packet , enabling a victim to identify packets traversing the same paths through the Internet on a per packet basis , regardless of source IP address spoofing .

@@ -1,0 +1,5 @@
+DDoS 100.00%
+
+entropy of HTTP GET requests per source IP address ( HRPI )
+
+In this paper , a novel approach to detect application-layer DDoS attack is proposed based on entropy of HTTP GET requests per source IP address ( HRPI ) .

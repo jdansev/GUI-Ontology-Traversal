@@ -1,0 +1,6 @@
+Denial of Service 100.00%
+
+enhanced trust mechanism
+
+We then propose an enhanced trust mechanism to detect such attackers and identify their victims .
+We conduct extensive OPNET simulations to validate our claims and demonstrate the advantages of our proposed approaches .

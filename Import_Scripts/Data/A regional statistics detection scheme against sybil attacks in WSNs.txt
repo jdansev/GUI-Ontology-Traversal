@@ -1,0 +1,7 @@
+sybil 60.00%
+replication 40.00%
+
+regional statistics detection scheme ( RSDs )
+
+In this paper , we proposed a regional statistics detection scheme ( RSDs ) against sybil attacks , which is an effective solution to three key issues : firstly , we address the sybil attack by a RSSI-based distributed detection mechanism , secondly , our protocol can prevented the network from a large number of nodes failure caused by sybil attacks , Thirdly , the RSDs has been verified can maintain a high detection probability with low system overhead by implement experiments .
+In this paper , we proposed a regional statistics detection scheme ( RSDs ) against sybil attacks , which is an effective solution to three key issues : firstly , we address the sybil attack by a RSSI-based distributed detection mechanism , secondly , our protocol can prevented the network from a large number of nodes failure caused by sybil attacks , Thirdly , the RSDs has been verified can maintain a high detection probability with low system overhead by implement experiments .

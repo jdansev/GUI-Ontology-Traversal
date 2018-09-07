@@ -1,0 +1,7 @@
+﻿wormhole 100.00%
+
+secure localization scheme
+
+In this paper , we propose a secure localization scheme against wormhole attacks , which includes three phases : wormhole attack detection , neighboring locators differentiation and secure localization .
+The main idea of the proposed secure localization scheme is to build a so-called conflicting set for each locator according to the abnormalities of message exchanges among neighboring locators , which is used to differentiate the dubious locators from valid locators for the secure localization .
+The simulation results show that the proposed scheme outperforms the existed schemes under different network parameters . © 2010 IEEE .

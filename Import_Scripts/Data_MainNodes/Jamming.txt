@@ -1,0 +1,3 @@
+﻿jamming
+
+Jamming is one of many exploits used compromise the wireless environment. It works by denying service to authorized users as legitimate traffic is jammed by the overwhelming frequencies of illegitimate traffic.

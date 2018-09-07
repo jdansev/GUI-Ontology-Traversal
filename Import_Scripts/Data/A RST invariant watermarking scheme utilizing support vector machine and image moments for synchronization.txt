@@ -1,0 +1,6 @@
+﻿synchronization 100.00%
+
+support vector machine and image moments
+
+﻿A RST invariant watermarking scheme utilizing support vector machine and image moments for synchronization . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-74049148483 & doi=10.1109 % 2fIAS.2009.176 & partnerID=40 & md5=9a647025464b45685f3ce9d3846db9dd ABSTRACT : A rotation , scaling and translation ( RST ) invariant watermarking scheme using support vector machine and image moments for synchronization is proposed in this paper .
+Experiments show that the proposed scheme can effectively resist JPEG compression , noise and geometric attacks . © 2009 IEEE .

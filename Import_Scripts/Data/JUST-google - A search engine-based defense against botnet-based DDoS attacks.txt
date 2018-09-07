@@ -1,0 +1,7 @@
+﻿DDoS 100.00%
+
+JUST-Google
+
+In this paper , we propose a simple yet effective scheme that enables an ISP 's edge routers to pass a great percentage of legitimate traffic , that is destined to a web server under DDoS attack within that ISP , while filtering all other traffic .
+The proposed scheme , called JUST-Google , is based on the fact that web search engines ( especially Google™ ) represent the entrance for today 's web , thus making it in a strategic position to defend against these attacks .
+Performance analysis shows that the proposed scheme would enable legitimate clients to access a web site that is under attack with high probability . ©2009 IEEE .

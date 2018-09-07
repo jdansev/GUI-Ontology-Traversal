@@ -1,0 +1,5 @@
+DoS/DDoS 100.00%
+
+IP packet size entropy ( IPSE ) -based DoS/DDoS detection scheme
+
+In this paper , we develop an IP packet size entropy ( IPSE ) -based DoS/DDoS detection scheme in which the entropy is markedly changed when traffic is affected by an attack .

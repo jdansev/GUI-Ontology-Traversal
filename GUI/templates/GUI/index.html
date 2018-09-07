@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+
+	<!-- Set the search array -->
+	<script type="text/javascript">
+		var search_list = [];
+		var global_c = [];
+		var global_h = 0;
+		{% for d in d_nodes %}
+			search_list.push({ value: "{{ d.name }}" });
+		{% endfor %}
+		{% for a in a_nodes %}
+			search_list.push({ value: "{{ a.name }}" });
+		{% endfor %}
+	</script>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Autocomplete search bar -->
+	<script type="text/javascript" src="{% static 'js/jquery.autocomplete.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/search-autocomplete.js' %}"></script>
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Chivo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+	<!-- Vis.js library -->
+	<script type="text/javascript" src="{% static 'js/vis.js' %}"></script>
+
+	<!-- Bootstrap: Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Latest compiled Bootstrap JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Notification library -->
+	<script type="text/javascript" src="{% static 'js/notifIt.js' %}"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/notifIt.css' %}">
+
+	<!-- Styling and stuff -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+	<div class="head">
+		<div id="title-div">
+			<h1 id="title"><span style="color: #7CBDBA">P24: </span>Intrusion Detection Ontology Traversal</h1>
+		</div>
+		<div class="flat-btn-div">
+			<button class="flat-btn tooltip-bottom" data-tooltip="Comments">
+				<img style="height: 15px;" onclick="downloadComments()" src="{% static 'images/download-icon.png' %}">
+			</button>
+		</div>
+		<div class="flat-btn-div">
+			<button class="flat-btn" onclick="highlight_nodes();">Find</button>
+		</div>
+		<div id="search-div">
+			<input type="text" class="text-field searchbar" name="search" id="autocomplete" spellcheck="false" value="Search..." onFocus="this.value=''" onblur="this.value='Search...'"/>
+		</div>
+	</div>
+
+	<div id="gui-main">
+
+		<div class="left-panel flex-item">
+
+			<div id="node-network"></div>
+
+			<div id="gui-buttons">
+				<div class="flat-btn-div3" data-tooltip="Highlight">
+					<!-- <button class="" id="button-highlight-comments" onclick="highlight_comments();" value="export_comments">Show Comments</button> -->
+					<!-- <img id="comment-highlight-btn-img" onclick="highlightComments()" src="{% static 'images/comment-bubble-gray.png' %}"> -->
+				</div>
+				<div class="flat-btn-div">
+
+				<div class="comment-highlight-div tooltip-bottom" data-tooltip="Highlight">
+					<img id="comment-highlight-btn-img" onclick="highlightComments()" src="{% static 'images/comment-bubble-gray.png' %}">
+				</div>
+
+		</div>
+			</div>
+
+			<div id="comments-div-wrapper">
+				<div id="comments-div">
+
+					<div class="box-label">Add Comment
+						<a href="#" class="icon">
+							<span id="list-comments-icon" onclick="viewCommentsList();" class="glyphicon glyphicon-list-alt"></span>
+						</a>
+						<a href="#" class="icon">
+							<span id="add-comment-icon" onclick="addComment();" class="glyphicon glyphicon-edit"></span>
+						</a>
+					</div>
+
+					<div id="edit">
+						<form method="post" id="add-comment">
+							{% csrf_token %}
+							<div class="comment-group">
+								<input type="text" placeholder="Your name" id="comment-author" name="comment" class="text-field user-input" required></input>
+							</div>
+							<div class="comment-group">
+								<textarea rows="4" type="text" placeholder="Your comment" id="comment-box" name="comment" class="text-field user-input"></textarea>
+								<button name="add-comment-btn">Add</button>
+							</div>
+						</form>
+						<div id="add-comment-btn-div">
+						</div>
+					</div>
+
+					<div id="comments-section">
+						<div id="comment-list"></div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div id="node-details" class="flex-item">
+			<div id="attack-info">
+				<div class="box-label">Attack Type</div>
+				<h2 id="attack-name"></h2>
+				<p id="attack-details"></p>
+			</div>
+			<div id="defense-info">
+				<div class="box-label">
+					<div class="box-label-title">Detection Technique</div>
+					<a href="#" class="icon"><span id="comment-icon" onclick="viewCommentPanel();" class="glyphicon glyphicon-comment"></span></a>
+					<div id="comment-count"></div>
+				</div>
+				<h2 id="defense-name"></h2>
+				<div id="defense-details"></div>
+			</div>
+		</div>
+
+		<div id="panel-placeholder" class="flex-item">
+			<div>
+				<p><b>Hover</b> over a node to view its details</p>
+				<p><b>Drag</b> the screen to move around</p>
+				<p><b>Scroll</b> to adjust zoom</p>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+
+		// Initialise
+		document.getElementById('comment-list').innerHTML =
+		"<div style=\"height:100%; width:100%; text-align: center; line-height:100px;\">No node selected</div>";
+		document.getElementById('comments-div-wrapper').style.display = "none";
+
+		function alterZoomView(id, y_val) {
+
+			if (!id) {
+				id = network.getSelectedNodes()[0];
+			}
+
+			if (id) {
+				var node = data.nodes.get(id);
+				var new_options = {
+			    	scale: 1.0,
+			    	offset: {x:0,y:y_val},
+			    	animation: {
+			    		duration: 500,
+			    		easingFunction: "easeInOutQuad",
+			    	}
+			    };
+			    network.focus(id, new_options);
+			}
+		}
+
+		// Toggle to show/hide the comments panel
+		var comments_hidden = true;
+		function viewCommentPanel() {
+			if (comments_hidden) {
+				document.getElementById('comments-div-wrapper').style.display = "block";
+				$("#comments-div").animate({bottom: '0px'}, 400);
+				$("#comment-icon").css("color", "gray");
+				viewCommentsList();
+				$(".user-input").val("");
+				alterZoomView(null, -80);
+				comments_hidden = false;
+			} else {
+				$("#comments-div").animate({bottom: '-200px'}, 400, function() {
+					document.getElementById('comments-div-wrapper').style.display = "none";
+				});
+				$("#comment-icon").css("color", "black");
+				alterZoomView(null, 0);
+				comments_hidden = true;
+			}
+		}
+
+		// List the comments
+		function viewCommentsList() {
+			$("#list-comments-icon").css("color", "gray");
+			$("#add-comment-icon").css("color", "black");
+			document.getElementById('edit').style.display = "none";
+			document.getElementById('comments-section').style.display = "block";
+		}
+
+		// Add a comment
+		function addComment() {
+			$("#list-comments-icon").css("color", "black");
+			$("#add-comment-icon").css("color", "gray");
+			document.getElementById('edit').style.display = "block";
+			document.getElementById('comments-section').style.display = "none";
+			$(".user-input").val("");
+		}
+
+	    var container = document.getElementById('node-network');
+
+	    // Initialise vis datasets.
+		var nodes = new vis.DataSet({});
+		var edges = new vis.DataSet({});
+
+		// Provide the data in the vis format
+	    var data = {
+	        nodes: nodes,
+	        edges: edges
+	    };
+
+		// [background, highlight, text color]
+		var colors = [
+			['#4fc1e9', '#3bafda', 'white'], // aqua
+			['#48cfad', '#37bc9b', 'white'], // mint
+			['#ec87c0', '#d770ad', 'white'], // pink rose
+			['#f5f7fa', '#e6e9ed', 'black'], // light grey
+			['#5d9cec', '#4a89dc', 'white'], // blue jeans
+			['#ed5565', '#da4453', 'white'], // grapefruit
+			['#ffce54', '#f6bb42', 'white'], // sunflower
+			['#ac92ec', '#967adc', 'white'], // lavender
+			['#a0d468', '#8cc152', 'white'], // grass
+			['#fc6e51', '#e9573f', 'white'], // bittersweet
+			['#ccd1d9', '#aab2bd', 'black'], // medium grey
+		]
+
+		var color_index = 0;
+		function pick_next_color() {
+			var index = color_index;
+			color_index = (color_index + 1) % (colors.length-1);
+			return colors[index];
+		}
+
+		// Temp dataset for attack nodes, so they can sit on top of the defense nodes when network is loaded
+		var nodes_temp = new vis.DataSet({});
+		{% for node in a_nodes %}
+			var scheme = pick_next_color();
+			nodes_temp.add({
+				id: '{{ node.name }}',
+				color_scheme: scheme,
+		    });
+		{% endfor %}
+
+		// Set options for each defense node and add it to the vis dataset.
+		{% for node in d_nodes %}
+
+			var comment_list = [];
+			{% for comment in comments %}
+				{% if comment.parent.id == node.id %}
+					comment_list.push("{{ comment.text|linebreaks }}");
+				{% endif %}
+			{% endfor %}
+
+			var parent_node = nodes_temp.get('{{ node.parent.name }}');
+
+			nodes.add({
+				node_id: '{{ node.id }}',
+				attack_id: '{{ node.parent.name }}',
+				type: 'defense',
+				id: '{{ node.name }}',
+				name: '{{ node.name }}',
+				label: '{{ node.name }}',
+				content:'{{ node.desc }}',
+				shape:'box',
+				color: {
+					background: parent_node.color_scheme[1],
+					border: 'black',
+					highlight: {
+						background: parent_node.color_scheme[0],
+						border: 'red',
+					},
+					hover: {
+						background: parent_node.color_scheme[0],
+						border: 'red',
+					},
+				},
+				font: {
+					face: 'Chivo',
+		            size : 20,
+		            color: parent_node.color_scheme[2],
+		        },
+		        comments: comment_list,
+			});
+		{% endfor %}
+
+		// Set options for each attack node and add it to the vis dataset.
+		{% for node in a_nodes %}
+			var label = '{{ node.name }}'.toUpperCase();
+
+			nodes.add({
+				type: 'attack',
+				id: '{{ node.name }}',
+				name: '{{ node.name }}',
+				label: label,
+				content: '{{ node.desc }}',
+				color: {
+					background: 'white',
+					border: 'black',
+					highlight: {
+						background: 'white',
+						border: 'red',
+					},
+					hover: {
+						background: 'white',
+						border: 'red',
+					},
+				},
+				font: {
+					bold: 'false',
+					face: 'Chivo',
+		            size : 20,
+		            color: 'black',
+		        },
+		    });
+		{% endfor %}
+
+		// Join the attack ad defense node edges.
+		{% for node in d_nodes %}
+			edges.add({
+				from: '{{ node.name }}',
+				to: '{{ node.parent.name }}',
+				color: {
+					color: 'gray',
+					highlight: '#fc8f8f',
+					hover: '#fc8f8f',
+				},
+
+			});
+		{% endfor %}
+
+	    // Set vis network options.
+		var options = {
+			interaction:{
+				hover: true,
+				dragNodes: true,
+			},
+			layout: {
+				randomSeed: 13,
+				improvedLayout:true,
+				hierarchical: {
+					enabled:false,
+					levelSeparation: 150,
+					nodeSpacing: 100,
+					treeSpacing: 50,
+					blockShifting: true,
+					edgeMinimization: false,
+					parentCentralization: true,
+					direction: 'UD',
+					sortMethod: 'hubsize',
+				}
+			}
+		}
+
+		// Initialise a new vis network.
+	    var network = new vis.Network(container, data, options);
+
+	    // Callable function for javascript notification addon.
+	    function displayNotification(type, message) {
+			notif({
+				msg: message,
+				type: type,
+				width: 500,
+				height: 50,
+				position: "center"
+			});
+		}
+
+		function downloadComments() {
+			window.location.href = "/download-comments";
+			displayNotification("success","Comments downloaded");
+		}
+
+		// AJAX for posting
+		function createComment() {
+			var selected_node_id = network.getSelectedNodes()[0];
+			// Error checking
+			if (selected_node_id) {
+				var node = data.nodes.get(selected_node_id);
+				if (node.type == 'attack') {
+					displayNotification("error","You can only comment on defense nodes");
+				}
+				else if (node.type == 'defense') {
+					var comment_val = $('#comment-box').val();
+	        var comment_author = $('#comment-author').val();
+	        var date = new Date().toLocaleString('en-AUS', {hour12: true, timeZone: 'Australia/Sydney'});
+					// Mske an ajax request to the add comments view
+				    $.ajax({
+				        url : "add-comment/" + node.node_id, // the endpoint
+				        type : "POST", // http method
+				        data : {
+				        	comment_text : comment_val,
+                  comment_writer: comment_author,
+                  comment_date: date,
+				        	csrfmiddlewaretoken : '{{ csrf_token }}',
+				        },
+				        // Handle a successful response
+				        success : function(json) {
+				        	displayNotification("success","Comment added");
+				        	updated_comments = node.comments; // Store the current comments
+                  updated_comments.push("<p>"+comment_author+" said: "+"<br><em>"+comment_val+"</em><br>"+" at "+date+"</p>"); //Append the new comment
+                  node.comments = updated_comments; // Change it's comments property
+				        	nodes.update(node); // Update it in the network
+				        	updateCommentDiv(node);
+				        	viewCommentsList();
+				        },
+				        // Error handling
+				        error : function(xhr,errmsg,err) {
+				        	displayNotification("error","An error occurred");
+				        }
+				    });
+				}
+			} else {
+				// Otherwise do nothing and display an error message
+				displayNotification("error","You have not selected a node to comment");
+			}
+		}
+
+		$('#add-comment').on('submit', function(event){
+		    event.preventDefault();
+		    createComment();
+		});
+
+		function updateCommentDiv(node) {
+			// If there are no comments then display a message
+        	if (node.comments.length == 0) {
+        		document.getElementById('comment-list').innerHTML =
+        		"<div style=\"height:100%; width:100%; text-align: center; line-height:100px;\">No comments</div>";
+        	} else {
+        		// Add the comments to a list tag then update it.
+        		var comment_list = "<ul>";
+		        for (var i = node.comments.length-1; i >= 0; i--) {
+		        	var node_comment = node.comments[i].replace(/(?:\r\n|\r|\n)/g, '<br />');
+		        	comment_list += "<li>" + node_comment + "</li>";
+		        }
+		        comment_list += "</ul>";
+		        document.getElementById('comment-list').innerHTML = comment_list;
+		        document.getElementById('comment-count').innerHTML = node.comments.length;
+        	}
+		}
+
+		// Node clicked trigger
+	    network.on( 'selectNode', function(properties) {
+		    var node_id = properties.nodes[0]; // Get the clicked node.
+		    nodeClicked(node_id);
+		});
+
+		// Node hover trigger
+	    network.on("hoverNode", function (params) {
+	        var node_id = params.node; // Get the hovered node.
+	        nodeHover(node_id);
+	    });
+
+	    // Node clicked function
+		function nodeClicked(id) {
+			var node = data.nodes.get(id);
+
+		    if (comments_hidden) {
+		    	alterZoomView(id, 0);
+		    } else {
+		    	alterZoomView(id, -80);
+		    }
+
+		    // Display attack details only.
+		    if (node.type == 'attack') {
+		    	document.getElementById('attack-info').style.display = 'block';
+		    	document.getElementById('attack-name').innerHTML = node.name;
+	        	document.getElementById('attack-details').innerHTML = node.content;
+	        	document.getElementById('defense-info').style.display = 'none';
+	        	document.getElementById('comment-list').innerHTML = "";
+	        }
+	        // Display attack and defense details.
+	        if (node.type == 'defense') {
+	        	var attack_node = data.nodes.get(node.attack_id);
+	        	document.getElementById('attack-info').style.display = 'block';
+	        	document.getElementById('attack-name').innerHTML = attack_node.name;
+	        	document.getElementById('attack-details').innerHTML = attack_node.content;
+	        	document.getElementById('defense-info').style.display = 'block';
+	        	document.getElementById('defense-name').innerHTML = node.name;
+	        	document.getElementById('defense-details').innerHTML = node.content;
+	        	document.getElementById('comment-count').innerHTML = node.comments.length;
+	        	// Add list of comments to the comment div
+	        	updateCommentDiv(node);
+	        }
+	        // Highlight as clicked.
+	        network.selectNodes([id],true);
+		}
+
+	    // Node hover function
+		function nodeHover(id) {
+
+			document.getElementById('node-details').style.display = "block";
+			document.getElementById('panel-placeholder').style.display = "none";
+
+			var node = data.nodes.get(id);
+	        // Display attack details only.
+	        if (network.getSelectedNodes().length == 0 && node.type == 'attack') {
+	        	document.getElementById('attack-info').style.display = 'block';
+	        	document.getElementById('attack-name').innerHTML = node.name;
+	        	document.getElementById('attack-details').innerHTML = node.content;
+	        	document.getElementById('defense-info').style.display = 'none';
+	        }
+	        // If no node is selected (clicked), then display it's details. Otherwise don't.
+	        if (network.getSelectedNodes().length == 0 && node.type == 'defense') {
+	        	var attack_node = data.nodes.get(node.attack_id);
+	        	document.getElementById('attack-info').style.display = 'block';
+	        	document.getElementById('attack-name').innerHTML = attack_node.name;
+	        	document.getElementById('attack-details').innerHTML = attack_node.content;
+	        	document.getElementById('defense-info').style.display = 'block';
+	        	document.getElementById('defense-name').innerHTML = node.name;
+	        	document.getElementById('defense-details').innerHTML = node.content;
+	        	document.getElementById('comment-count').innerHTML = node.comments.length;
+	        	// Add list of comments to the comment div
+	        	updateCommentDiv(node);
+	        }
+		}
+
+		var comments_highlighted = false;
+		function highlightComments() {
+			if (!comments_highlighted) {
+				$("#comment-highlight-btn-img").attr("src", "{% static 'images/comment-bubble-red.png' %}");
+				comments_highlighted = true;
+			} else {
+				$("#comment-highlight-btn-img").attr("src", "{% static 'images/comment-bubble-gray.png' %}");
+				comments_highlighted = false;
+			}
+			highlight_list = [];
+			for (var i in nodes._data) {
+				if ((nodes._data[i].type == "defense") && (nodes._data[i].comments.length > 0)) {
+					highlight_list.push(i)
+				}
+			}
+			if (global_h == 0) {
+				network.selectNodes(highlight_list, true);
+				global_h = 1;
+			}
+			else {
+				network.selectNodes([], true);
+				global_h = 0;
+			}
+		}
+
+	    // On page load zoom out and display details of the first node.
+	    (function() {
+			setTimeout(function() {
+				var moveToOptions = {
+					position: {x:0, y:0},
+					scale: 0.4,
+					offset: {x:-60, y:75},
+					animation: {
+						duration: 1000,
+						easingFunction: "easeInOutQuad",
+					}
+				};
+				network.moveTo(moveToOptions);
+			}, 3000);
+
+		}) ();
+
+	</script>
+
+</body>
+</html>

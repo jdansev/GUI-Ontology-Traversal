@@ -1,0 +1,7 @@
+Distributed Denial of Service 50.00%
+DDoS 25.00%
+service 25.00%
+
+fast entropy method
+
+In this paper we propose improvement in detection of Distributed Denial of Service attacks based on fast entropy method using flow-based analysis .

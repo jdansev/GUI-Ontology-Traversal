@@ -1,0 +1,6 @@
+wormhole 100.00%
+
+Neighbor 's Neighbor scheme ( WDNN )
+
+To enhance the efficiency and facility of wormhole detection , we here propose a high efficiency wormhole detection algorithm based on 2-hop neighbor in WMNs , which is called Wormhole Detection based on Neighbor 's Neighbor scheme ( WDNN ) .
+Then a simple Random Walk Route scheme ( RWR ) is proposed to prevent routes from wormholes , which attract traffic of the routing protocols based on least cost .

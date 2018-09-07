@@ -1,0 +1,6 @@
+﻿DDoS 100.00%
+
+probability metrics
+
+In this paper we propose a set of novel methods using probability metrics to distinguish DDoS attacks from Flash crowds effectively , and our simulations show that the proposed methods work well .
+Furthermore , we show our proposed hybrid probability metrics can greatly reduce both false positive and false negative rates in detection . © 2009 IEEE .

@@ -1,0 +1,9 @@
+﻿DDoS 50.00%
+DoS 50.00%
+
+deterministic packet marking models
+
+In this paper , we propose new deterministic packet marking models in order to characterize DDoS attack streams .
+In this direction we propose a rate control scheme that protects destination domains by limiting the amount of traffic during an attack , while leaving a large percentage of legitimate traffic unaffected .
+The above features enable providers to offer enhanced security protection against such attacks as a value-added service to their customers , and hence offer positive incentives for them to deploy the proposed models .
+We evaluate the proposed marking models using a snapshot of the actual Internet topology , in terms of how well they differentiate attack traffic from legitimate traffic in cases of full and partial deployment . © 2005 Elsevier Ltd. All rights reserved .

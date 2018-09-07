@@ -1,0 +1,6 @@
+DDoS 66.67%
+denial-of-service 33.33%
+
+Generalized Vickrey auction ( GVA )
+
+A novel microeconomic framework based on Generalized Vickrey auction ( GVA ) is proposed .

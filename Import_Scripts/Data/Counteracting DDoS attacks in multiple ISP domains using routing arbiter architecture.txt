@@ -1,0 +1,8 @@
+﻿DDoS 100.00%
+
+packet marking technique and agent design
+
+Our previous work proposed an automated model with a new packet marking technique and agent design to counteract DDoS within a single ISP domain .
+For example , our model is invoked only during attack times , identifies the approximate source of attack with a single packet even in case of spoofed source address , identifies different attack signatures for different attacking sources , prevents the attack nearest to the attacking source , has very fast response for any changes in attack traffic pattern , is simple in its implementation and can be incrementally deployed .
+Though the proposed model has several advantages , prevention of the attack is limited to a single ISP domain .
+We also propose a practical implementation of the extended model with a presently working architecture . ©2003 IEEE .

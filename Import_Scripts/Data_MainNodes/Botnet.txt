@@ -1,0 +1,3 @@
+botnet
+
+A botnet is a logical collection of internet connected devices such computers, smartphones or IoT devices whose security has been breached and control ceded to a third party. Each such compromised device, known as a "bot", is created when a device is penetrated by software from a malware (malicious software) distribution. The controller of a botnet is able to direct the activities of these compromised computers through communication channels formed by standards-based network protocols such as IRC and Hypertext Transfer Protocol (HTTP).

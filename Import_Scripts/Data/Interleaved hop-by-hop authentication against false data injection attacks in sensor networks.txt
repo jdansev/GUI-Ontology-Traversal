@@ -1,0 +1,5 @@
+injection 100.00%
+
+hop-by-hop authentication schemes
+
+We present three interleaved hop-by-hop authentication schemes that guarantee that the base station can detect injected false data immediately when no more than t nodes are compromised , where t is a system design parameter .

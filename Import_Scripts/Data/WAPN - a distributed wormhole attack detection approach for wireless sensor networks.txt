@@ -1,0 +1,6 @@
+Wormhole 100.00%
+
+probability distribution of the neighboring-node-number
+
+We present a wormhole attack detection approach based on the probability distribution of the neighboring-node-number , WAPN , which helps the sensor nodes to judge distributively whether a wormhole attack is taking place and whether they are in the influencing area of the attack .
+Finally , we propose a simple method to obtain the threshold number , which is used to detect the existence of a wormhole .

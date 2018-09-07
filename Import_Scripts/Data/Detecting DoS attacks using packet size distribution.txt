@@ -1,0 +1,5 @@
+DoS 100.00%
+
+entropy ( IPSE ) -based DoS detection scheme
+
+In this paper , we develop an IP packet size entropy ( IPSE ) -based DoS detection scheme in which the entropy is markedly changed when traffic is affected by an attack .

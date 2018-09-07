@@ -1,0 +1,5 @@
+Sybil 100.00%
+
+group-based trust metric
+
+In this paper we investigate the characteristic of P2P reputation networks and propose a group-based trust metric to alleviate the effects of Sybil Attack and Collusion .

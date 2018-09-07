@@ -1,0 +1,6 @@
+DoS 50.00%
+depletion 50.00%
+
+client-puzzle based DoS-resistant scheme
+
+A new client-puzzle based DoS-resistant scheme of IEEE 802.11i wireless authentication protocol is proposed to improve the DoS-resistant ability of IEEE 802.11i wireless networks .

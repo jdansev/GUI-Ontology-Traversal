@@ -1,0 +1,6 @@
+﻿Sybil 100.00%
+
+received signal strength indication ( RSSI )
+
+﻿Sybil attack detection based on RSSI for wireless sensor network . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-38049062061 & doi=10.1109 % 2fWICOM.2007.667 & partnerID=40 & md5=0a345c1cf4b148c8f466544dc7a5ca9d ABSTRACT : In this paper we propose a new method of Sybil attack detection in Wireless Sensor Network ( WSN ) based on received signal strength indication ( RSSI ) .
+Consequently , two ways were proposed to check , and raise the efficiency and refinement of Sybil attack on head nodes and member nodes .

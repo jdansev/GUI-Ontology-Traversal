@@ -1,0 +1,7 @@
+DoS 100.00%
+
+composition self-similarity anomaly detection ( CSSD ) method
+
+We propose the concept of composition distribution graph and design the relative operations .
+Based on composition distribution graph and Kullback Leibler ( KL ) divergence , we propose the composition self-similarity anomaly detection ( CSSD ) method for the detection of DoS attacks .
+We evaluate the effectiveness of the proposed method .

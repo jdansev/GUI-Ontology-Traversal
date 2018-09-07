@@ -1,0 +1,5 @@
+distributed denial of service 100.00%
+
+distributed gateway architecture
+
+We propose a distributed gateway architecture and a payment protocol that imposes dynamically changing prices on network , server , and information resources in order to push some cost of initiating service requests - in terms of monetary payments and/or computational burdens back onto the requesting clients .

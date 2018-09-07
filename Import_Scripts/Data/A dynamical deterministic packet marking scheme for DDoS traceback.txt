@@ -1,0 +1,7 @@
+DDoS 100.00%
+
+Marking on Demand ( MOD ) scheme
+
+We therefore propose a novel Marking on Demand ( MOD ) scheme based on the DPM mechanism to dynamical distribute marking IDs in both temporal and space dimensions .
+The proposed MOD scheme can traceback to all possible sources of DDoS attacks , which is not possible for the existing DPM schemes .
+We thoroughly compare the proposed MOD scheme with two dominant DPM schemes through theoretical analysis and experiments .

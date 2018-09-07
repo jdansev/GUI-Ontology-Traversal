@@ -1,0 +1,7 @@
+DDoS 50.00%
+network 50.00%
+
+compression entropy method
+
+To reduce the computing time , we have developed a DDoS detection scheme using a compression entropy method .
+In this paper , we propose a fast entropy scheme that can overcome the issue of false negatives and will not increase the computational time .

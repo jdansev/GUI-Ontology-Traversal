@@ -1,0 +1,8 @@
+﻿Botnet 100.00%
+
+Particle Swarm Optimization ( PSO ) and K-means algorithms
+
+Even though detection technology has been much improved and some solutions to Internet security have been proposed and improved , the threat of Botnet still exists .
+This study combines Particle Swarm Optimization ( PSO ) and K-means algorithms to provide a solution to remedy those problems and develop , step by step , a mechanism for Botnet detection .
+The experimental findings show that this proposed approach can be employed to detect the suspicious Botnet members earlier than the detection application systems .
+In addition , this proposed approach is easy to implement and can be further used and extended in the campus dormitory network , home networks , and the mobile 3G network . © 2015 ACM .

@@ -1,0 +1,8 @@
+wormhole 100.00%
+
+Time Petri Net
+
+In this paper , we present a formal model using Time Petri Net to formally evaluate a proposed solution for detecting wormhole attack in CL-MAC , a cross-layer MAC protocol developed at MAC layer for energy efficient and low latency in WSN [ 3 ] [ 7 ] .
+In this paper , we present a formal model using Time Petri Net to formally evaluate a proposed solution for detecting wormhole attack in CL-MAC , a cross-layer MAC protocol developed at MAC layer for energy efficient and low latency in WSN [ 3 ] [ 7 ] .
+In this paper , we present a formal model using Time Petri Net to formally evaluate a proposed solution for detecting wormhole attack in CL-MAC , a cross-layer MAC protocol developed at MAC layer for energy efficient and low latency in WSN [ 3 ] [ 7 ] .
+TiNA ( Time Net Analyzer ) TPN tool is used to highlight the formal properties of the proposed solution .

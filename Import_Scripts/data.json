@@ -1,0 +1,531 @@
+{
+    "Dos": [
+        "In computing, a denial-of-service attack (DoS attack) is a cyber-attack where the perpetrator seeks to make a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet.  Denial of service is typically accomplished by flooding the targeted machine or resource with superfluous requests in an attempt to overload systems and prevent some or all legitimate requests from being fulfilled.",
+        [
+            [
+                "Composition self-similarity anomaly detection (cssd) method",
+                "We propose the concept of composition distribution graph and design the relative operations. Based on composition distribution graph and Kullback Leibler (KL) divergence, we propose the composition self-similarity anomaly detection (CSSD) method for the detection of DoS attacks. We evaluate the effectiveness of the proposed method. "
+            ],
+            [
+                "Multi-user signature-based broadcast authentication scheme",
+                "This paper presents a multi-user, signature-based broadcast authentication scheme with the capability of containing such DoS attack. We address multi-user supporting problem with Bloom Filter. We propose RRAS (Reputation-based Randomized Authentication Scheme) to contain the DoS attack. "
+            ],
+            [
+                "Biometric identity based encryption (ibe) scheme",
+                "A new biometric identity based encryption scheme secure againstDoSattacks.       https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-79951803930 & doi=10.1002 % 2fsec.162 & partnerID=40 & md5=fdbc86abf09e4dbd017982c316bdb03e ABSTRACT : Recently, Sarier 1 proposed an efficient biometric Identity Based Encryption (IBE) scheme called BIO-IBE using the Sakai Kasahara Key Construction and proved its security in the Random Oracle Model (ROM) based on the well-exploited k-BDHI computational problem. Despite its efficiency compared to other fuzzy IBE systems implemented for biometric identities, BIO-IBE is not secure against a new type of denial of service ( DoS ) attack that we present. "
+            ],
+            [
+                "Client-puzzle based dos-resistant scheme",
+                "A new client-puzzle based DoS-resistant scheme of IEEE 802.  11i wireless authentication protocol is proposed to improve the DoS-resistant ability of IEEE 802.11i wireless networks. "
+            ],
+            [
+                "Key management-rivest, shamir, & adleman (pkm-rsa)",
+                "An alternative for Privacy and Key Management-Rivest, Shamir, & Adleman (PKM-RSA) is proposed in this paper which uses visual secret sharing in a pre-authentication scenario to avoid DoS attacks caused by the large number of rogue requests. "
+            ],
+            [
+                "Pattern-matching",
+                "This paper addresses this common DoS attack and proposes a lightweight puzzle, based on pattern-matching. "
+            ],
+            [
+                "Rsa-based framework",
+                "In this paper, we propose a novel RSA-based framework for combating DoS attacks in WSN by ensuring that the malicious party will exhaust its resources prior to exhausting those of its counterparts. Under the proposed approach, the mathematical operations performed by the malicious party require two or three orders of magnitude more resources than those required by the attacked party. We also present three methodologies for establishing an ephemeral key, in which the proposed DoS mitigation mechanism is an embedded component. We also present three methodologies for establishing an ephemeral key, in which the proposed DoS mitigation mechanism is an embedded component. Implementation results on the Intel Mote 2 platform substantiate the clear advantages of the proposed method.  2007 IEEE. "
+            ],
+            [
+                "Multivariate correlation analysis (mca)",
+                "In this paper, we present a DoS attack detection system that uses multivariate correlation analysis (MCA) for accurate network traffic characterization by extracting the geometrical correlations between network traffic features. Furthermore, a triangle-area-based technique is proposed to enhance and to speed up the process of MCA. The effectiveness of our proposed detection system is evaluated using KDD Cup 99 data set, and the influences of both non-normalized data and normalized data on the performance of the proposed detection system are examined. The effectiveness of our proposed detection system is evaluated using KDD Cup 99 data set, and the influences of both non-normalized data and normalized data on the performance of the proposed detection system are examined. The results show that our system outperforms two other previously developed state-of-the-art approaches in terms of detection accuracy.  1990-2012 IEEE. "
+            ],
+            [
+                "Delegation-based roaming payment protocol",
+                "An efficient delegation-based roaming payment protocol against denial of service attacks.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-81455149033 & doi=10.1109 % 2fICECC.2011.6067856 & partnerID=40 & md5=14a7505cc744df305e413911d1cc780e ABSTRACT : The payment system for many kinds of mobile devices, such as smart phones, PDAs and mobile tablets, will be increasingly developed in the near future. Youn and Lim in 2010 proposed an improved delegation-based authentication protocol to add the unlinkability property for protecting user 's privacy. The denial of service (DoS) threats on Youn and Lim, and multiple VLRs have also been considered. The proposed protocol is specially suitable for off-line fast payments and provides buyer 's privacy by applying anonymity and unlinkability techniques. "
+            ],
+            [
+                "Congestion-triggered packet sampling/packet filtering (ctps/pf)",
+                "We present a countermeasure against such attacks, called the congestion-triggered packet sampling/packet filtering (CTPS/PF) architecture. "
+            ],
+            [
+                "Cross-layer security mechanism",
+                "This paper is an extension to the smart building access system proposed in [ 1 ]. In this paper, a cross-layer security mechanism is proposed to detect denial of service (DoS) attacks and the countermeasures taken to avoid the same without comprising any network resources.  2006 IEEE. "
+            ],
+            [
+                "Dns attack detection and prevention (dadp) scheme",
+                "As a more effective approach we present a solution called the DNS Attack Detection and Prevention (DADP) scheme based on the usage of a non-blocking DNS cache. "
+            ],
+            [
+                "Hierarchical clustering technique which elect controlled nodes (cnode)",
+                "In this paper, we propose an energy-preserving solution to detect compromised nodes in WSNs. The proposed method is based on hierarchical clustering technique which elect Controlled nodes (Cnode) that analyze the traffic inside a cluster and to send warnings to the cluster-head (CH) whenever an abnormal behavior is detected. The proposed method is dynamic as the Cnodes are periodically elected among ordinary nodes on each atomic cluster. "
+            ],
+            [
+                "Entropy (ipse) -based dos detection scheme",
+                "In this paper, we develop an IP packet size entropy (IPSE) -based DoS detection scheme in which the entropy is markedly changed when traffic is affected by an attack. "
+            ],
+            [
+                "Aomdv-ids protocol",
+                "We present a AOMDV-IDS protocol for detecting a avoiding the malicious node in MANET.  2013 IEEE. "
+            ],
+            [
+                "Enhanced trust mechanism",
+                "We then propose an enhanced trust mechanism to detect such attackers and identify their victims. We conduct extensive OPNET simulations to validate our claims and demonstrate the advantages of our proposed approaches. "
+            ],
+            [
+                "Dynamic entropy-based model",
+                "This paper presents a novel dynamic entropy-based model for the detection of DoS attack. "
+            ],
+            [
+                "Attacked packet detection algorithm (apda)",
+                "In this paper we proposed an Attacked Packet Detection Algorithm (APDA) which is used to detect the DOS (Denial-of-Service) attacks before the verification time. "
+            ],
+            [
+                "Hidden difficuly puzzles",
+                "We propose three concrete puzzles that satisfy this requirement. Based on the concept of Nash equilibrium, we develop suitable defense mechanisms that are better than the existing ones.  Springer-Verlag Berlin Heidelberg 2010. "
+            ],
+            [
+                "Cross layer design techniques",
+                "We present a complete solution using Cross Layer Design techniques to detect and identify the attackers and to mitigate the attack by minimizing the negative impact on the network. "
+            ],
+            [
+                "Ip packet size entropy (ipse) -based dos/ddos detection scheme",
+                "In this paper, we develop an IP packet size entropy (IPSE) -based DoS/DDoS detection scheme in which the entropy is markedly changed when traffic is affected by an attack. "
+            ],
+            [
+                "Traditional likelihood estimation with a recurrent random neural network (r-rnn) structure",
+                "In this paper we propose a DoS detection technique based on observation of the incoming traffic and a combination of traditional likelihood estimation with a recurrent random neural network (r-RNN) structure. "
+            ],
+            [
+                "Digital signatures",
+                "In this paper, we propose a DoS mitigation technique that uses digital signatures to verify legitimate packets, and drop packets that do not pass the verification. Analytical results show that Nash equilibrium can be attained for players in the proposed game, in which significant benefits can be provided to forwarders such that many of the bad packets will be eliminated by verification. "
+            ],
+            [
+                "Path identification (pi) and internet control message protocol (icmp) traceback (itrace) methods",
+                "On the basis of path identification (Pi) and Internet control message protocol (ICMP) traceback (iTrace) methods, a packet track and traceback mechanism is proposed, which features rapid response and high accuracy. "
+            ],
+            [
+                "Game theory",
+                "We propose a protocol based on game theory which achieves the design objectives of truthfulness by recognizing the presence of nodes that agree to forward packets but fail to do so. Through simulation we evaluate proposed protocol using packet throughput and the accuracy of misbehaving node detection. "
+            ],
+            [
+                "Proactive server roaming",
+                "Proactive server roaming for mitigating Denial-of-Service attacks.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84893960790 & doi=10.1109 % 2fITRE.2003.1270623 & partnerID=40 & md5=08622f22418b0c272ed74ce97f9070bf ABSTRACT : We propose a framework based on proactive server roaming to mitigate the effects of Denial-of-Service (DoS) attacks. We present algorithms that are secure, distributed, randomized, and adaptive for triggering the roaming and determining the next server to roam to. We propose some modifications to the state recovery process of existing TCP connection-migration schemes to suit roaming. "
+            ],
+            [
+                "History-based ip filtering layer",
+                "In this paper, we propose a history-based IP filtering layer to defeat these DoS attacks by blocking the SIP packets from previously unseen sources. "
+            ],
+            [
+                "Group-based filter and the key chain-based filter",
+                "Specifically, this paper first presents two filtering techniques, the group-based filter and the key chain-based filter, to handle the DoS attacks against signature verification. This paper then combines these two filters and proposes a hybrid solution to further improve the performance.  2013 ACM. "
+            ],
+            [
+                "Particle swarm optimization (pso) algorithm",
+                "Then it proposes a framework in which the defense issue is formulated as an optimization problem and employs the particle swarm optimization (PSO) algorithm to optimally solve this problem. The simulation results show that the proposed defense strategy improves the performance of the under attack system in terms of rejection probability of connection requests and efficient consumption of buffer space.  2011 Elsevier Ltd. All rights reserved. "
+            ],
+            [
+                "Hybrid-theoretical framework",
+                "A hybrid-theoretical framework is proposed which is comprised of a physical control subsystem, a cyber security subsystem, and an interface which integrates the control design with the security configuration. Finally, the proposed method is applied to the voltage regulation of the Uninterrupted Power System (UPS).  2015, Institute of Control, Robotics and Systems and The Korean Institute of Electrical Engineers and Springer-Verlag Berlin Heidelberg. "
+            ],
+            [
+                "Rule-based approach",
+                "In this paper, we propose a new mechanism that uses rule-based approach that is able to address the shortcomings of existing mechanisms with improved accuracy and performance.  2015 IEEE. "
+            ],
+            [
+                "In-packet bloom-filter-based source-routing architecture",
+                "Self-routing denial-of-service resistant capabilities using in-packet bloom filters.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-77954925208 & doi=10.1109 % 2fEC2ND.2009.14 & partnerID=40 & md5=bf92d9634e247f542d7950187fd76425 ABSTRACT : In this paper, we propose and analyze an in-packet Bloom-filter-based source-routing architecture resistant to Distributed Denial-of-Service attacks. "
+            ],
+            [
+                "Tsallis entropy",
+                "Use of Tsallis entropy in detection of SYN flood DoS attacks.       https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84930024739 & doi=10.1002 % 2fsec.1286 & partnerID=40 & md5=c861fbde95bb2fe8821c484ea0afef95 ABSTRACT : In this paper, we present results of application of Tsallis entropy in detection of denial of service attacks. A simple packet distribution, that is, entropy of source addresses are considered. "
+            ]
+        ]
+    ],
+    "Ddos": [
+        "A distributed denial-of-service (DDoS) attack is an attack in which multiple compromised computer systems attack a target, such as a server, website or other network resource, and cause a denial of service for users of the targeted resource.  The flood of incoming messages, connection requests or malformed packets to the target system forces it to slow down or even crash and shut down, thereby denying service to legitimate users or systems.",
+        [
+            [
+                "Marking on demand (mod) scheme",
+                "We therefore propose a novel Marking on Demand (MOD) scheme based on the DPM mechanism to dynamical distribute marking IDs in both temporal and space dimensions. The proposed MOD scheme can traceback to all possible sources of DDoS attacks, which is not possible for the existing DPM schemes. We thoroughly compare the proposed MOD scheme with two dominant DPM schemes through theoretical analysis and experiments. "
+            ],
+            [
+                "Sdn-based attack prevention architecture",
+                "Based on the traffic analysis, an SDN-based Attack Prevention Architecture is proposed that is able to capture and analyze incoming flows on-the-fly. "
+            ],
+            [
+                "Multilevel thrust filtration (mtf) mechanism",
+                "In this paper, we propose 'Multilevel Thrust Filtration (MTF) mechanism ' as a solution, which authenticates the incoming requesters and detects the different types of DDoS attacks at different levels to detect the most intensive attack at an early stage to prevent the unnecessary traffic reaching the DC. A hybrid solution is proposed to detect four different kinds of attacks that have been taken into consideration. Profit analysis proved that the proposed mechanism is deployable at an attack-prone DC for resource protection, which would eventually result in beneficial service at slenderised revenue. "
+            ],
+            [
+                "Graph neuron (gn) -based decentralized pattern recognition scheme",
+                "We propose a Graph Neuron (GN) -based, decentralized pattern recognition scheme for attack detection. "
+            ],
+            [
+                "Compression entropy method",
+                "To reduce the computing time, we have developed a DDoS detection scheme using a compression entropy method. In this paper, we propose a fast entropy scheme that can overcome the issue of false negatives and will not increase the computational time. "
+            ],
+            [
+                "Adaptive probabilistic filter scheduling (apfs)",
+                "APFS : Adaptive Probabilistic Filter Scheduling against distributed denial-of-service attacks.          https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84888861138 & doi=10.1016 % 2fj.cose.2013.09.002 & partnerID=40 & md5=a8afec959923f93c618b23bf89129022 ABSTRACT : Distributed denial-of-service (DDoS) attacks are considered to be among the most crucial security challenges in current networks because they significantly disrupt the availability of a service by consuming extreme amount of resource and/or by creating link congestions. We propose a novel mechanism, called Adaptive Probabilistic Filter Scheduling (APFS), that effectively defends against DDoS attacks and also satisfies the three necessary properties. "
+            ],
+            [
+                "Packet marking technique and agent design",
+                "Our previous work proposed an automated model with a new packet marking technique and agent design to counteract DDoS within a single ISP domain. For example, our model is invoked only during attack times, identifies the approximate source of attack with a single packet even in case of spoofed source address, identifies different attack signatures for different attacking sources, prevents the attack nearest to the attacking source, has very fast response for any changes in attack traffic pattern, is simple in its implementation and can be incrementally deployed. Though the proposed model has several advantages, prevention of the attack is limited to a single ISP domain. We also propose a practical implementation of the extended model with a presently working architecture. 2003 IEEE. "
+            ],
+            [
+                "Ip flow feature value (ffv) algorithm",
+                "The IP Flow feature value (FFV) algorithm is proposed based on the essential features of DDoS attacks, such as the abrupt traffic change, flow dissymmetry, distributed source IP addresses and concentrated target IP addresses. Furthermore, an alert evaluation mechanism is developed to reduce the false positives due to prediction error and flow noise. "
+            ],
+            [
+                "Fast entropy method",
+                "In this paper we propose improvement in detection of Distributed Denial of Service attacks based on fast entropy method using flow-based analysis. "
+            ],
+            [
+                "Interface based rate limiting (ibrl) algorithm",
+                "Based on the assumption that the attacker flows are very aggressive than the legitimate users the proposed work provides sufficient bandwidth to genuine users during flooding DDoS attack. The Interface Based Rate Limiting (IBRL) algorithm proposed in this paper is used to mitigate the identified DDoS attacks. "
+            ],
+            [
+                "Entropy-based detection mechanism",
+                "DDoS flooding attack detection through a step-by-step investigation.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84863260902 & doi=10.1109 % 2fNESEA.2011.6144944 & partnerID=40 & md5=b0dfe6ae5403655bfb8514025f9764b5 ABSTRACT : Internet users are increases, distributed denial of service (DDoS) attack present a very serious threat to the stability of the internet. In this paper, we propose the entropy-based detection mechanism against DDoS attacks in order to guarantee the transmission of normal traffic and prevent the flood of abnormal traffic. "
+            ],
+            [
+                "Generalized vickrey auction (gva)",
+                "A novel microeconomic framework based on Generalized Vickrey auction (GVA) is proposed. "
+            ],
+            [
+                "Machine learning technique",
+                "In this paper, an IP traceback scheme using a machine learning technique called Intelligent Decision Prototype (IDP), is proposed. "
+            ],
+            [
+                "Dispersible traffic matrix and weighted moving average",
+                "In this paper, we propose a new detection model for spoofed DDoS attacks using dispersible traffic matrix and weighted moving average. This proposed detection model can not only visualize network traffic streams but also describe the dispersibility characteristics of DDoS attacks such as intensity, duration and rate of DDoS traffic. Our approach demonstrates that it effectively detects the DDoS attacks in the early stage and in very short time, even though DDoS attacks ' streams are low. Also, the proposed detection model shows a good performance in terms of detection accuracy, speed, and false alarms.  2009 Springer Berlin Heidelberg. "
+            ],
+            [
+                "Enhanced support vector machines",
+                "The focus of this paper is to generate the Distributed Denial of Service (DDoS) detection dataset and detect them using the Enhanced Support Vector Machines. "
+            ],
+            [
+                "Traffic matrix",
+                "To cope with it, we propose an enhanced DDoS attacks detection approach by optimizing the parameters of the traffic matrix using a Genetic Algorithm (GA) to maximize the detection rates. "
+            ],
+            [
+                "Hurst coefficient",
+                "This paper proposes a measure based on Hurst coefficient to detect DDoS on Low-rate. "
+            ],
+            [
+                "Flow correlation coefficient",
+                "Based on this, we proposed a discrimination algorithm using the flow correlation coefficient as a similarity metric among suspicious flows. We formulated the problem, and presented theoretical proofs for the feasibility of the proposed discrimination method in theory. Our extensive experiments confirmed the theoretical analysis and demonstrated the effectiveness of the proposed method in practice.  1990-2012 IEEE. "
+            ],
+            [
+                "Probability metrics",
+                "In this paper we propose a set of novel methods using probability metrics to distinguish DDoS attacks from Flash crowds effectively, and our simulations show that the proposed methods work well. Furthermore, we show our proposed hybrid probability metrics can greatly reduce both false positive and false negative rates in detection.  2009 IEEE. "
+            ],
+            [
+                "Rbp classifier",
+                "The improvement in performance of the RBP classifier is the focus of this paper. Our proposed classification algorithm, RBPBoost, is achieved by combining ensemble of classifier outputs and Neyman Pearson cost minimization strategy, for final classification decision. "
+            ],
+            [
+                "Characteristics of web services",
+                "In this paper, we propose a new scheme which we use the characteristics of web services, to record user 's source IP, through the firewall and the control computer with real-time dynamic policy rules. "
+            ],
+            [
+                "Flow-volume based ddos detection approach (fvba)",
+                "In this paper, a novel Flow-Volume based DDoS detection approach (FVBA) is proposed, which deals with detection of variety of DDoS attacks by monitoring the propagation of abrupt traffic changes inside ISP Domain. Different attack scenarios are implemented by varying total number of zombie machines and at different attack strengths to measure effectiveness of proposed approach. "
+            ],
+            [
+                "Cooperative overlay network and a gossip-based information exchange protocol",
+                "Global detection of flooding-basedDDoSattacks using a cooperative overlay network.          https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-78650311596 & doi=10.1109 % 2fNSS.2010.68 & partnerID=40 & md5=bb8b5e463f5e05f1d2f3cc8231fa198c ABSTRACT : Flooding-based Distributed Denial of Service ( DDoS ) attacks present a serious threat to the stability of the Internet. In this paper, we propose a distributed defense infrastructure to detect DDoS attacks globally using a cooperative overlay network and a gossip-based information exchange protocol. Our NS2 based simulation results show that the proposed solution can detect attacks with a detection rate as high as 0.99 with false alarms below 0.01. "
+            ],
+            [
+                "Hop count",
+                "Hence this research work proposes a novel approach called Hop Count based Packet processing to counter DDoS attacks. This number is derived by the concatenation of the 32 bits of the IP address of the router path and the encrypted value of the hop count. "
+            ],
+            [
+                "Just-google",
+                "In this paper, we propose a simple yet effective scheme that enables an ISP 's edge routers to pass a great percentage of legitimate traffic, that is destined to a web server under DDoS attack within that ISP, while filtering all other traffic. The proposed scheme, called JUST-Google, is based on the fact that web search engines (especially Google™) represent the entrance for today 's web, thus making it in a strategic position to defend against these attacks. Performance analysis shows that the proposed scheme would enable legitimate clients to access a web site that is under attack with high probability. 2009 IEEE. "
+            ],
+            [
+                "Information metrics",
+                "In this paper, we innovatively propose using two new information metrics such as the generalized entropy metric and the information distance metric to detect low-rate DDoS attacks by measuring the difference between legitimate traffic and attack traffic. The proposed generalized entropy metric can detect attacks several hops earlier (three hops earlier while the order α = 10) than the traditional Shannon metric. The proposed information distance metric outperforms (six hops earlier while the order α = 10) the popular KullbackLeibler divergence approach as it can clearly enlarge the adjudication distance and then obtain the optimal detection sensitivity. The experimental results show that the proposed information metrics can effectively detect low-rate DDoS attacks and clearly reduce the false positive rate. Furthermore, the proposed IP traceback algorithm can find all attacks as well as attackers from their own local area networks (LANs) and discard attack traffic.  2011 IEEE. "
+            ],
+            [
+                "Distributed gateway architecture",
+                "We propose a distributed gateway architecture and a payment protocol that imposes dynamically changing prices on network, server, and information resources in order to push some cost of initiating service requests - in terms of monetary payments and/or computational burdens back onto the requesting clients. "
+            ],
+            [
+                "Multiagent pattern recognition mechanism",
+                "In this study, the authors propose a multiagent pattern recognition mechanism for detecting DDoS attacks, in adistributed fashion. Our proposed solution is very effective in detecting such attacks launched against victim servers residing inside a production network which has multiple gateways to the Internet. Using simulation, the authors show that our proposed mechanism achieves a high degree of accuracy in detecting DDoS attacks, with low false alarm rates, using a reasonable numbers of attack detection agents collaboratively operating in a typical production network. "
+            ],
+            [
+                "Multiplayer game",
+                "Multiplayer game forDDoSattacks resilience in ad hoc networks.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-79960925393 & doi=10.1109 % 2fWIRELESSVITAE.2011.5940931 & partnerID=40 & md5=ef755f7ea1847c183bce9aa4ae71ecff ABSTRACT : This paper proposes a multiplayer game to prevent Distributed Denial of Service attack ( DDoS ) in ad hoc networks. "
+            ],
+            [
+                "Backward-propagation on-off control strategy",
+                "On the defense of the distributed denial of service attacks : An on-off feedback control approach.       https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-0035402092 & doi=10.1109 % 2f3468.935045 & partnerID=40 & md5=15d01bc419ca8fbcd29dc66c9acbf801 ABSTRACT : This paper proposes a coordinated defense scheme of distributed denial of service (DDoS) network attacks, based on the backward-propagation, on-off control strategy. We present a backward pressure propagation, feedback control scheme to defend DDoS attacks. We use a generic network model to analyze the dynamics of network traffic, and develop the algorithms for rate-based and queue-length-based feedback control. "
+            ],
+            [
+                "A filter-based ddos defense",
+                "A filter-based DDoS defense is considered as an effective approach, since it can defend against both attacks : victim resource consumption and link congestion. However, existing filter-based approaches do not address necessary properties for viable DDoS solutions : how to practically identify attack paths, how to propagate filters to the best locations (filter routers), and how to manage many filters to maximize the defense effectiveness. We propose a novel mechanism, termed PFS (Probabilistic Filter Scheduling), to efficiently defeat DDoS attacks and to satisfy the necessary properties. "
+            ],
+            [
+                "Packet marking approach",
+                "We propose Pi (short for path identifier), a new packet marking approach in which a path fingerprint is embedded in each packet, enabling a victim to identify packets traversing the same paths through the Internet on a per packet basis, regardless of source IP address spoofing. "
+            ],
+            [
+                "Double check priority queue structure",
+                "In this paper, we propose a Double Check Priority Queue structure that effectively mitigates the impact of DDoS attacks in order that normal users can still access services.  2011 Springer-Verlag. "
+            ],
+            [
+                "Probabilistic route selection algorithm",
+                "To solve this problem, we propose a probabilistic route selection algorithm to trace the attacker 's real origin.  We simulate for the propose of validation this algorithm by using OPNET14.0 in terms of false positive and required number of packets to trace DDoS attack traffic source.  2011 IEEE. "
+            ],
+            [
+                "Deterministic packet marking models",
+                "In this paper, we propose new deterministic packet marking models in order to characterize DDoS attack streams. In this direction we propose a rate control scheme that protects destination domains by limiting the amount of traffic during an attack, while leaving a large percentage of legitimate traffic unaffected. The above features enable providers to offer enhanced security protection against such attacks as a value-added service to their customers, and hence offer positive incentives for them to deploy the proposed models. We evaluate the proposed marking models using a snapshot of the actual Internet topology, in terms of how well they differentiate attack traffic from legitimate traffic in cases of full and partial deployment.  2005 Elsevier Ltd. All rights reserved. "
+            ],
+            [
+                "Fuzzy estimator",
+                "Real time DDoS detection using fuzzy estimators.          https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84865258778 & doi=10.1016 % 2fj.cose.2012.06.002 & partnerID=40 & md5=640eb52fa7d4548634ef96940c1ead5a ABSTRACT : We propose a method for DDoS detection by constructing a fuzzy estimator on the mean packet inter arrival times. "
+            ],
+            [
+                "Entropy of http get requests per source ip address (hrpi)",
+                "In this paper, a novel approach to detect application-layer DDoS attack is proposed based on entropy of HTTP GET requests per source IP address (HRPI). "
+            ],
+            [
+                "Rbf networks and statistical features",
+                "Real-time detection of distributed denial-of-service attacks using RBF networks and statistical features.          https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-16644393989 & doi=10.1016 % 2fj.comnet.2004.08.014 & partnerID=40 & md5=059e9b3f4aa82eb264ef5e4f46b7b77e ABSTRACT : In this paper we present and evaluate a Radial-basis-function neural network detector for Distributed-Denial-of-Service (DDoS) attacks in public networks based on statistical features estimated in short-time window analysis of the incoming data packets. The proposed method is evaluated in a simulated public network and showed detection rate better than 98 % of DDoS attacks using only three statistical features estimated from one window of data packets of 6 s length. "
+            ],
+            [
+                "Time-series decomposition",
+                "In response to this type of DDoS attacks, we propose a detection approach based on time-series decomposition, which divides the original time series into trend and random components. By separately examining each component and synthetically evaluating the overall results, the proposed approach can greatly reduce not only false positives and negatives but also detection latency. We evaluate the performance of the proposed approach using real Internet traces, demonstrating its effectiveness. 2010 IEEE. "
+            ],
+            [
+                "Software-defined security networking mechanism (sdsnm)",
+                "Then a software-defined security networking mechanism (SDSNM) was proposed to remove or restrict these necessary conditions which were summarized from the model. "
+            ],
+            [
+                "Support vector machine",
+                "In order to design and develop reliable and secure network services, rapid detection and quick response to these attacks are major concern. In this paper, we present machine learning approach based on support vector machine for regression to predict the number of zombies in a DDoS attack. "
+            ],
+            [
+                "Traceback-based distributed packet filter (tdpf)",
+                "This paper proposes traceback-based distributed packet filter (TDPF), a novel distributed packet filtering mechanism that employs IP traceback as a means for traffic discrimination. "
+            ],
+            [
+                "Traceback method",
+                "In this paper, we propose a novel traceback method for DDoS attacks that is based on entropy variations between normal and DDoS attack traffic, which is fundamentally different from commonly used packet marking techniques. In comparison to the existing DDoS traceback methods, the proposed strategy possesses a number of advantagesit is memory nonintensive, efficiently scalable, robust against packet pollution, and independent of attack traffic patterns. The results of extensive experimental and simulation studies are presented to demonstrate the effectiveness and efficiency of the proposed method. "
+            ],
+            [
+                "Trained classifier in a random tree machine-learning algorithm",
+                "Our focus and contributions in this paper are first, to mitigate the undetected malicious traffic mimicking legitimate traffic and developing a special anti-DDoS module for general and specific DDoS tools attacks by using a trained classifier in a random tree machine-learning algorithm. "
+            ]
+        ]
+    ],
+    "Botnet": [
+        "A botnet is a logical collection of internet connected devices such computers, smartphones or IoT devices whose security has been breached and control ceded to a third party.  Each such compromised device, known as a \"bot\", is created when a device is penetrated by software from a malware (malicious software) distribution. The controller of a botnet is able to direct the activities of these compromised computers through communication channels formed by standards-based network protocols such as IRC and Hypertext Transfer Protocol (HTTP).",
+        [
+            [
+                "Support vector machine (svm)",
+                "In this paper, we propose a proactive botnet detection framework using Support Vector Machine (SVM) to identify P2P botnets based on payload independent statistical features. "
+            ],
+            [
+                "Fuzzy pattern recognition techniques",
+                "In this paper, we propose a behavior-based botnet detection system based on fuzzy pattern recognition techniques.   Membership functions can be easily altered, removed, or added to enhance the capability of the proposed system. In addition, to improve the overall system performance, we develop a traffic reduction algorithm to reduce the amount of network traffic required to be inspected by the proposed system. In addition, to improve the overall system performance, we develop a traffic reduction algorithm to reduce the amount of network traffic required to be inspected by the proposed system. Performance evaluation results based on real traces show that the proposed system can reduce more than 70 % input raw packet traces and achieve a high detection rate (about 95 %) and a low false positive rates (0-3.08 %). Furthermore, the proposed FPRF algorithm is resource-efficient and can identify inactive botnets to indicate potential vulnerable hosts.  2011 Elsevier B.V. All rights reserved. "
+            ],
+            [
+                "Particle swarm optimization (pso) and k-means algorithms",
+                "Even though detection technology has been much improved and some solutions to Internet security have been proposed and improved, the threat of Botnet still exists. This study combines Particle Swarm Optimization (PSO) and K-means algorithms to provide a solution to remedy those problems and develop, step by step, a mechanism for Botnet detection. The experimental findings show that this proposed approach can be employed to detect the suspicious Botnet members earlier than the detection application systems. In addition, this proposed approach is easy to implement and can be further used and extended in the campus dormitory network, home networks, and the mobile 3G network.  2015 ACM. "
+            ]
+        ]
+    ],
+    "Sybil": [
+        "The Sybil attack in computer security is an attack wherein a reputation system is subverted by forging identities in peer-to-peer networks.  In a Sybil attack, the attacker subverts the reputation system of a peer-to-peer network by creating a large number of pseudonymous identities, using them to gain a disproportionately large influence. A reputation system's vulnerability to a Sybil attack depends on how cheaply identities can be generated, the degree to which the reputation system accepts inputs from entities that do not have a chain of trust linking them to a trusted entity, and whether the reputation system treats all entities identically.",
+        [
+            [
+                "Group-based trust metric",
+                "In this paper we investigate the characteristic of P2P reputation networks and propose a group-based trust metric to alleviate the effects of Sybil Attack and Collusion. "
+            ],
+            [
+                "Regional statistics detection scheme (rsds)",
+                "In this paper, we proposed a regional statistics detection scheme (RSDs) against sybil attacks, which is an effective solution to three key issues : firstly, we address the sybil attack by a RSSI-based distributed detection mechanism, secondly, our protocol can prevented the network from a large number of nodes failure caused by sybil attacks, Thirdly, theRSDshas been verified can maintain a high detection probability with low system overhead by implement experiments. In this paper, we proposed a regional statistics detection scheme ( RSDs ) against sybil attacks, which is an effective solution to three key issues : firstly, we address the sybil attack by a RSSI-based distributed detection mechanism, secondly, our protocol can prevented the network from a large number of nodes failure caused by sybil attacks, Thirdly, the RSDs has been verified can maintain a high detection probability with low system overhead by implement experiments. "
+            ],
+            [
+                "K-means cluster analysis",
+                "The traditional approach to address sybil attacks is to employ cryptographic-related methods. In this paper, we propose to utilize K-means cluster analysis for detecting sybil attacks based on the spatial correlation between the signal strength and physical locations. Our results show that the proposed sybil attack detector is highly effective with over 95 % detection rates and under 5 % false positive rates.  2008 IEEE. "
+            ],
+            [
+                "Rule-based anomaly detection system",
+                "This work restrains its focus on how to defend against a particularly harmful form of attack, the Sybil attack. This paper presents a rule-based anomaly detection system, called RADS, which monitors and timely detects Sybil attacks in large-scale WSNs. At its core, the proposed expert system relies on an ultra-wideband (UWB) ranging-based detection algorithm that operates in a distributed manner requiring no cooperation or information sharing between the sensor nodes in order to perform the anomaly detection tasks. The feasibility of the proposed approach is proven analytically, while the performance of RADS in exposing Sybil attacks is extensively assessed both mathematically and numerically. "
+            ],
+            [
+                "Trust management scheme (cbtms) framework",
+                "Sybil attacks focus on creating multiple online user identities called Sybil identities and try to achieve malicious results through these identities. In this paper, we proposed a Cloud based Trust Management Scheme (CbTMS) framework for detecting Sybil attacks in participatory sensing network. Our CbTMS was proposed for performing Sybil attack characteristic check and trustworthiness management system to verify coverage nodes in the participatory sensing. To verify the proposed framework, we are currently developing the proposed scheme on OMNeT++ network simulator in multiple scenarios to achieve Sybil identities detection in our simulation environment.  2013 IEEE. To verify the proposed framework, we are currently developing the proposed scheme on OMNeT++ network simulator in multiple scenarios to achieve Sybil identities detection in our simulation environment.  2013 IEEE. "
+            ],
+            [
+                "Unified ranking mechanismby",
+                "In this paper, we propose an unified ranking mechanismby leveraging trust and distrust in social networks against such kind of attacks based on a variant of the PageRank-like model. "
+            ],
+            [
+                "Adaptive computational puzzles",
+                "To address this problem, we propose the use of adaptive computational puzzles as an approach to limit the spread of Sybils. An in-depth analysis of both (i) the performance of our mechanism under various parameter and environment settings, and (ii) the results achieved with an experimental evaluation, considering real-life traces from a Peer-to-Peer file sharing community, has shown the effectiveness of the proposed mechanism in limiting the spread of Sybil identities. "
+            ],
+            [
+                "Bayesian algorithm and swarm intelligence (si)",
+                "In this paper, the Sybil attack is analyzed and a novel prediction method, combining Bayesian algorithm and Swarm Intelligence (SI) is proposed. "
+            ],
+            [
+                "Received signal strength indication (rssi)",
+                "Sybil attack detection based onRSSIfor wireless sensor network.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-38049062061 & doi=10.1109 % 2fWICOM.2007.667 & partnerID=40 & md5=0a345c1cf4b148c8f466544dc7a5ca9d ABSTRACT : In this paper we propose a new method of Sybil attack detection in Wireless Sensor Network (WSN) based on received signal strength indication ( RSSI ). Consequently, two ways were proposed to check, and raise the efficiency and refinement of Sybil attack on head nodes and member nodes. "
+            ],
+            [
+                "Signature vectors (sadsiv)",
+                "This paper, therefore, presents a novel solution named Sybil attack detection based on signature vectors (SADSIV) in VANETs. "
+            ]
+        ]
+    ],
+    "Probe": [
+        "In probe attacks the attacker scans the network to gather the information of computers to identify the vulnerabilities. These network probes are quite useful to an attacker who is staging a future attack. An attacker with a map of which machines and services are available on a network can use this information to look for weak points. ",
+        [
+            [
+                "Vector evaluated pso approach",
+                "A vector evaluated PSO approach is used in the proposed technique with two objectives i. e., intrusion detection rate and false discovery rate, to guide the process of feature selection. Empirical results show that the proposed technique outperforms well-known classification and regression techniques in most of the cases.  2013 IEEE. "
+            ],
+            [
+                "Binary particle swarm optimization (bpso) and random forests (rf) algorithm",
+                "Different classification techniques for identifying various attacks have been proposed in the literature. In this paper we propose and implement a hybrid classifier based on binary particle swarm optimization (BPSO) and random forests (RF) algorithm for the classification of PROBE attacks in a network. We also compare the performance of our proposed classifier with eight other well-known classifiers and the results show that the performance achieved by the proposed classifier is much better than the other approaches.  2011 IEEE. We also compare the performance of our proposed classifier with eight other well-known classifiers and the results show that the performance achieved by the proposed classifier is much better than the other approaches.  2011 IEEE. "
+            ],
+            [
+                "Snort-ids",
+                "In this paper, we present the procedure to improve the Snort-IDS rules for the network probe attack detection. Firstly, we analyzed and explored the existing the Snort-IDS rules to improve the proposed Snort-IDS rules. As the experimental results, the proposed Snort-IDS efficiently detected the network probe attacks compared to the Detection Scoring Truth. "
+            ]
+        ]
+    ],
+    "Synchronization": [
+        "Time synchronization implementations have been developed specifically for sensor networks.  Three of the most prominent are Reference Broadcast Synchronization (RBS) Timing-sync Protocol for Sensor Networks (TPSN), and Flooding Time Synchronization Protocol FTSP).",
+        [
+            [
+                "Support vector machine and image moments",
+                "ARSTinvariant watermarking scheme utilizing support vector machine and image moments for synchronization.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-74049148483 & doi=10.1109 % 2fIAS.2009.176 & partnerID=40 & md5=9a647025464b45685f3ce9d3846db9dd ABSTRACT : A rotation, scaling and translation ( RST ) invariant watermarking scheme using support vector machine and image moments for synchronization is proposed in this paper. Experiments show that the proposed scheme can effectively resist JPEG compression, noise and geometric attacks.  2009 IEEE. "
+            ]
+        ]
+    ],
+    "Wormhole": [
+        "In a wormhole attack, an attacker receives packets at one point in the network, tunnels them to another point in the network, and then replays them into the network from that point.  For tunneled distances longer than the normal wireless transmission range of a single hop, it is simple for the attacker to make the tunneled packet arrive with better metric than a normal multihop route.",
+        [
+            [
+                "Time petri net",
+                "In this paper, we present a formal model using Time Petri Net to formally evaluate a proposed solution for detecting wormhole attack in CL-MAC, a cross-layer MAC protocol developed at MAC layer for energy efficient and low latency in WSN [ 3 ] [ 7 ]. In this paper, we present a formal model using Time Petri Net to formally evaluate a proposed solution for detecting wormhole attack in CL-MAC, a cross-layer MAC protocol developed at MAC layer for energy efficient and low latency in WSN [ 3 ] [ 7 ]. In this paper, we present a formal model using Time Petri Net to formally evaluate a proposed solution for detecting wormhole attack in CL-MAC, a cross-layer MAC protocol developed at MAC layer for energy efficient and low latency in WSN [ 3 ] [ 7 ]. TiNA (Time Net Analyzer) TPN tool is used to highlight the formal properties of the proposed solution. "
+            ],
+            [
+                "Distance vector (dv) -based robust localization (dvrl) scheme",
+                "In this paper, we address the problem of making sensors in WSNs locate their positions in an environment in which there exists the threat of wormhole attacks. We propose a distance vector (DV) -based robust localization (DVRL) scheme which can fight against wormhole attacks in wireless sensors networks without increasing hardware complexity or incurring too much computational cost. Experiment results show that the proposed scheme is capable of fighting against wormhole attacks while improving accuracy compared to the basic DV-Hop algorithm.  2011 Binary Information Press December, 2011. "
+            ],
+            [
+                "Dv-hop localization algorithm",
+                "In this paper, we present a novel defense mechanism against wormhole attacks in DV-Hop localization algorithm. "
+            ],
+            [
+                "Secure localization scheme",
+                "In this paper, we propose a secure localization scheme against wormhole attacks, which includes three phases : wormhole attack detection, neighboring locators differentiation and secure localization. The main idea of the proposed secure localization scheme is to build a so-called conflicting set for each locator according to the abnormalities of message exchanges among neighboring locators, which is used to differentiate the dubious locators from valid locators for the secure localization. The simulation results show that the proposed scheme outperforms the existed schemes under different network parameters.  2010 IEEE. "
+            ],
+            [
+                "Transmission time based mechanism (ttm)",
+                "In this paper, we proposed a transmission time based mechanism (TTM) to detect wormhole attacks - one of the most popular & serious attacks in Wireless Ad Hoc Networks. "
+            ],
+            [
+                "Probability distribution of the neighboring-node-number",
+                "We present a wormhole attack detection approach based on the probability distribution of the neighboring-node-number, WAPN, which helps the sensor nodes to judge distributively whether a wormhole attack is taking place and whether they are in the influencing area of the attack. Finally, we propose a simple method to obtain the threshold number, which is used to detect the existence of a wormhole. "
+            ],
+            [
+                "Clustering and digital signatures",
+                "In this paper we propose a novel technique based on clustering and digital signatures for prevention against wormhole attacks without use of special hardware, time synchronisation or dependency on time or hop difference between colluding nodes to identify attacked routes. "
+            ],
+            [
+                "Neighbor 's neighbor scheme (wdnn)",
+                "To enhance the efficiency and facility of wormhole detection, we here propose a high efficiency wormhole detection algorithm based on 2-hop neighbor in WMNs, which is called Wormhole Detection based on Neighbor 's Neighbor scheme (WDNN). Then a simple Random Walk Route scheme (RWR) is proposed to prevent routes from wormholes, which attract traffic of the routing protocols based on least cost. "
+            ],
+            [
+                "Routes redundancy, routes aggregation and calculating round-trip time (rtt)",
+                "Wormhole attacks detection inMANETsusing routes redundancy and time-based hop calculation.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84872371529 & doi=10.1109 % 2fICTC.2012.6387145 & partnerID=40 & md5=0f6b1e1f8828b7adadaf5b14d78a3681 ABSTRACT : This paper proposes a method to detect and isolate wormhole attacks in mobile ad hoc networks ( MANETs ). The proposed method works in three steps, which are using routes redundancy, routes aggregation and calculating round-trip time (RTT) of all listed routes. Nodes with suspicious behavior within network are isolated and will not be considered for transmission. Simulation results shows the ability to prevent the increasing of packets dropped, based on wormhole isolation in our proposed scheme compare to normal AODV protocol and approach of previous time-based calculation.  2012 IEEE. "
+            ]
+        ]
+    ],
+    "Flooding": [
+        "Flooding is a Denial of Service (DoS) attack that is designed to bring a network or service down by flooding it with large amounts of traffic. Flood attacks occur when a network or service becomes so weighed down with packets initiating incomplete connection requests that it can no longer process genuine connection requests. ",
+        [
+            [
+                "Variation of lyapunov exponent",
+                "In this paper, a variation of Lyapunov exponent is proposed to detect anomalies in network traffic, based on entropy. "
+            ],
+            [
+                "Page access behavior",
+                "In this paper, we propose HTTP-GET flood detection techniques based on analysis of page access behavior. We propose two detection algorithms, one is focusing on a browsing order of pages and the other is focusing on a correlation with browsing time to page information size. "
+            ]
+        ]
+    ],
+    "Emulation": [
+        "In a hostile environment, an attacker may modify the air interface of a Cognitive Radio (CR) to mimic a primary user signals characteristics, thereby causing legitimate secondary users to erroneously identify the attacker as a primary user.  We coin the term primary user emulation (PUE) attack to refer to this attack.",
+        [
+            [
+                "Aes-assisted dtv scheme",
+                "We propose a reliable AES-assisted DTV scheme, in which an AES-encrypted reference signal is generated at the TV transmitter and used as the sync bits of the DTV data frames. In addition, when combined with the analysis on the autocorrelation of the received signal, the presence of the malicious user can be detected accurately whether or not the primary user is present. We analyze the effectiveness of the proposed approach through both theoretical analysis and simulation examples. It should be emphasized that the proposed scheme requires no changes in hardware or system structure except for a plug-in AES chip. "
+            ],
+            [
+                "Game-theoretic framework",
+                "The authors propose a game-theoretic framework to study the primary user emulation attack (PUEA) on CR nodes. Moreover, a novel belief updating system is proposed for the secondary user to learn the state of the primary user as the game evolves. Simulation results demonstrate that the proposed belief updating system achieves better performance than other models for the secondary user in terms of greater payoff, lower probability of missing primary user and better robustness to the inaccurate estimation of the primary user 's state.  2012 The Institution of Engineering and Technology. "
+            ]
+        ]
+    ],
+    "Injection": [
+        "Injection attacks refer to a broad class of attack vectors that allow an attacker to supply untrusted input to a program, which gets processed by an interpreter as part of a command or query which alters the course of execution of that program.  Injection attacks are amongst the oldest and most dangerous web application attacks. They can result in data theft, data loss, loss of data integrity, denial of service, as well as full system compromise.",
+        [
+            [
+                "Snort ids",
+                "In this paper we propose an innovative solution to filter the SQL injection attack using SNORT IDS. The proposed detection technique uses SNORT tool by augmenting a number of additional SNORT rules. We evaluate the proposed solution by comparing our method with several existing techniques. Experimental results demonstrate that the proposed method outperforms other similar techniques using the same data set.  2014 IEEE. "
+            ],
+            [
+                "Sql query removal method",
+                "This paper proposes a simple and effective SQL Query removal method which uses Combined Static and Dynamic Analysis and evaluates the efficiency through various experiments.  2011 IEEE. "
+            ],
+            [
+                "Hop-by-hop authentication schemes",
+                "We present three interleaved hop-by-hop authentication schemes that guarantee that the base station can detect injected false data immediately when no more than t nodes are compromised, where t is a system design parameter. "
+            ],
+            [
+                "Sql proxy-based blocker (sqlprob)",
+                "To curtail the attackers ' ability to generate such attacks, we propose an SQL Proxy-based Blocker (SQLProb). "
+            ],
+            [
+                "Relation-graph-based detection scheme",
+                "Several intrusion detection schemes have been proposed previously [ 1, 2 ].  In this paper, we propose a new relation-graph-based detection scheme to defeat false data injection attacks at the SCADA system, even when injected data may seemly fall within a valid/normal range. Furthermore, we propose a new inference algorithm to infer the injection point (s), i.e., the attack origin, in the system. "
+            ]
+        ]
+    ],
+    "Jamming": [
+        "Jamming is one of many exploits used compromise the wireless environment.  It works by denying service to authorized users as legitimate traffic is jammed by the overwhelming frequencies of illegitimate traffic.",
+        [
+            [
+                "Technique-multi-channel ratio (mcr) decoding",
+                "MCR Decoding : A MIMO approach for defending against wireless jamming attacks.        https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84921498554 & doi=10.1109 % 2fCNS.2014.6997478 & partnerID=40 & md5=5707851df1c57b9ffa9852118163c2bd ABSTRACT : This paper presents a novel technique-Multi-Channel Ratio (MCR) Decoding, which aims at providing an anti-jamming wireless communication capability for multi-antenna wireless devices. This paper also reports the analysis, implementation, and experimental evaluations of MCR decoding on a software-defined radio platform-GNURadio and USRP, which show that the proposed MCR decoding can detect the desired transmission reliably under the jamming attack and remove jamming signals effectively in the real world environment.  2014 IEEE. "
+            ],
+            [
+                "Honeynodes and a response mechanism",
+                "In this paper, we propose a pre-emptive detection strategy using honeynodes and a response mechanism based on the existing Channel Surfing Algorithm [ Xu W, Trappe W, Zhang Y, Wood T. Channel surfing and spatial retreats : defenses against wireless denial of service. We have simulated the proposed approach using NS-2. The experimental results further prove a marked improvement in the performance of the proposed system over the Channel Surfing Algorithm in terms of the packet delivery ratio, the jammed duration, control message overhead and the number of channel re-configurations.  2009 Elsevier Ltd. All rights reserved. "
+            ]
+        ]
+    ],
+    "Replay": [
+        "A replay attack (also known as playback attack) is a form of network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed.  This is carried out either by the originator or by an adversary who intercepts the data and re-transmits it, possibly as part of a masquerade attack by IP packet substitution.",
+        [
+            [
+                "Source port sequences",
+                "This project proposes a new approach over the existing Port Knocking by employing the Source Port sequences that will simplify a technique for port knocking system. The performance of the proposed method was evaluated by measuring the authentication time to knock the server. As a result, the proposed method worked faster than other methods like basic port knocking and Fwknop + SPA. This has shown that the proposed method was simple and at the same time against the TCP replay attack and port scanning.  2012 IEEE. "
+            ]
+        ]
+    ],
+    "Malware": [
+        "Malware, short for malicious software, is an umbrella term used to refer to a variety of forms of hostile or intrusive software, including computer viruses, worms, Trojan horses, ransomware, spyware, adware, scareware, and other malicious programs.  It can take the form of executable code, scripts, active content, and other software. Malware is defined by its malicious intent, acting against the requirements of the computer user - and so does not include software that causes unintentional harm due to some deficiency.",
+        [
+            [
+                "Malware classification scheme",
+                "In this paper we have proposed a malware classification scheme based on Hidden Markov Models using system calls as observed symbols. Testing the proposed technique on system call logs of real malware shows that it has the potential of effectively classifying unknown malware into known classes.  2015 IEEE. "
+            ]
+        ]
+    ]
+}

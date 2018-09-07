@@ -1,0 +1,9 @@
+﻿DDoS 50.00%
+network 25.00%
+service 25.00%
+
+backward-propagation on-off control strategy
+
+﻿On the defense of the distributed denial of service attacks : An on-off feedback control approach . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-0035402092 & doi=10.1109 % 2f3468.935045 & partnerID=40 & md5=15d01bc419ca8fbcd29dc66c9acbf801 ABSTRACT : This paper proposes a coordinated defense scheme of distributed denial of service ( DDoS ) network attacks , based on the backward-propagation , on-off control strategy .
+We present a backward pressure propagation , feedback control scheme to defend DDoS attacks .
+We use a generic network model to analyze the dynamics of network traffic , and develop the algorithms for rate-based and queue-length-based feedback control .

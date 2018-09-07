@@ -1,0 +1,8 @@
+probe 83.33%
+detection 16.67%
+
+Snort-IDS
+
+In this paper , we present the procedure to improve the Snort-IDS rules for the network probe attack detection .
+Firstly , we analyzed and explored the existing the Snort-IDS rules to improve the proposed Snort-IDS rules .
+As the experimental results , the proposed Snort-IDS efficiently detected the network probe attacks compared to the Detection Scoring Truth .

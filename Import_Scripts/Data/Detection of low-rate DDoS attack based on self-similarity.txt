@@ -1,0 +1,5 @@
+DDoS 100.00%
+
+Hurst coefficient
+
+This paper proposes a measure based on Hurst coefficient to detect DDoS on Low-rate .

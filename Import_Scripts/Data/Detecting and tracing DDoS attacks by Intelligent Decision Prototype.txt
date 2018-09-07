@@ -1,0 +1,5 @@
+DDoS 100.00%
+
+machine learning technique
+
+In this paper , an IP traceback scheme using a machine learning technique called Intelligent Decision Prototype ( IDP ) , is proposed .

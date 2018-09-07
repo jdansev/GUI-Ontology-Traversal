@@ -1,0 +1,8 @@
+﻿wormhole 100.00%
+
+routes redundancy , routes aggregation and calculating round-trip time ( RTT )
+
+﻿Wormhole attacks detection in MANETs using routes redundancy and time-based hop calculation . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84872371529 & doi=10.1109 % 2fICTC.2012.6387145 & partnerID=40 & md5=0f6b1e1f8828b7adadaf5b14d78a3681 ABSTRACT : This paper proposes a method to detect and isolate wormhole attacks in mobile ad hoc networks ( MANETs ) .
+The proposed method works in three steps , which are using routes redundancy , routes aggregation and calculating round-trip time ( RTT ) of all listed routes .
+Nodes with suspicious behavior within network are isolated and will not be considered for transmission .
+Simulation results shows the ability to prevent the increasing of packets dropped , based on wormhole isolation in our proposed scheme compare to normal AODV protocol and approach of previous time-based calculation . © 2012 IEEE .

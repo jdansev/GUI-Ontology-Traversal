@@ -1,0 +1,6 @@
+DDoS 50.00%
+network 50.00%
+
+characteristics of web services
+
+In this paper , we propose a new scheme which we use the characteristics of web services , to record user 's source IP , through the firewall and the control computer with real-time dynamic policy rules .

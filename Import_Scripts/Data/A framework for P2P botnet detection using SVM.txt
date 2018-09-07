@@ -1,0 +1,5 @@
+Botnet 100.00%
+
+Support Vector Machine ( SVM )
+
+In this paper , we propose a proactive botnet detection framework using Support Vector Machine ( SVM ) to identify P2P botnets based on payload independent statistical features .

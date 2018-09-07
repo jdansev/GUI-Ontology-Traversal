@@ -1,0 +1,5 @@
+wormhole 100.00%
+
+clustering and digital signatures
+
+In this paper we propose a novel technique based on clustering and digital signatures for prevention against wormhole attacks without use of special hardware , time synchronisation or dependency on time or hop difference between colluding nodes to identify attacked routes .

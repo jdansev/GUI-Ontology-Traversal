@@ -1,0 +1,7 @@
+DDoS 100.00%
+
+traceback method
+
+In this paper , we propose a novel traceback method for DDoS attacks that is based on entropy variations between normal and DDoS attack traffic , which is fundamentally different from commonly used packet marking techniques .
+In comparison to the existing DDoS traceback methods , the proposed strategy possesses a number of advantagesit is memory nonintensive , efficiently scalable , robust against packet pollution , and independent of attack traffic patterns .
+The results of extensive experimental and simulation studies are presented to demonstrate the effectiveness and efficiency of the proposed method .

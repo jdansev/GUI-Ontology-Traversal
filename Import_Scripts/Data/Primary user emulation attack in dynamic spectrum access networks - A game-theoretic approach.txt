@@ -1,0 +1,7 @@
+﻿emulation 100.00%
+
+game-theoretic framework
+
+The authors propose a game-theoretic framework to study the primary user emulation attack ( PUEA ) on CR nodes .
+Moreover , a novel belief updating system is proposed for the secondary user to learn the state of the primary user as the game evolves .
+Simulation results demonstrate that the proposed belief updating system achieves better performance than other models for the secondary user in terms of greater payoff , lower probability of missing primary user and better robustness to the inaccurate estimation of the primary user 's state . © 2012 The Institution of Engineering and Technology .

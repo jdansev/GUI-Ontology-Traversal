@@ -1,0 +1,7 @@
+﻿DDoS 100.00%
+
+time-series decomposition
+
+In response to this type of DDoS attacks , we propose a detection approach based on time-series decomposition , which divides the original time series into trend and random components .
+By separately examining each component and synthetically evaluating the overall results , the proposed approach can greatly reduce not only false positives and negatives but also detection latency .
+We evaluate the performance of the proposed approach using real Internet traces , demonstrating its effectiveness . ©2010 IEEE .

@@ -1,0 +1,6 @@
+﻿Injection 66.67%
+﻿Injection 33.33%
+
+SQL Query removal method
+
+This paper proposes a simple and effective SQL Query removal method which uses Combined Static and Dynamic Analysis and evaluates the efficiency through various experiments . © 2011 IEEE .

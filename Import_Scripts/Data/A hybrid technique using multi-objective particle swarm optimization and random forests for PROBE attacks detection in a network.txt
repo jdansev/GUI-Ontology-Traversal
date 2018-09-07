@@ -1,0 +1,6 @@
+﻿Probe 100.00%
+
+vector evaluated PSO approach
+
+A vector evaluated PSO approach is used in the proposed technique with two objectives i.e. , intrusion detection rate and false discovery rate , to guide the process of feature selection .
+Empirical results show that the proposed technique outperforms well-known classification and regression techniques in most of the cases . © 2013 IEEE .

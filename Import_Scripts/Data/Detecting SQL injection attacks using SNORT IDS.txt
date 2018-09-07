@@ -1,0 +1,8 @@
+﻿injection 100.00%
+
+SNORT IDS
+
+In this paper we propose an innovative solution to filter the SQL injection attack using SNORT IDS .
+The proposed detection technique uses SNORT tool by augmenting a number of additional SNORT rules .
+We evaluate the proposed solution by comparing our method with several existing techniques .
+Experimental results demonstrate that the proposed method outperforms other similar techniques using the same data set . © 2014 IEEE .

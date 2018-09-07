@@ -1,0 +1,9 @@
+﻿DoS 100.00%
+
+multivariate correlation analysis ( MCA )
+
+In this paper , we present a DoS attack detection system that uses multivariate correlation analysis ( MCA ) for accurate network traffic characterization by extracting the geometrical correlations between network traffic features .
+Furthermore , a triangle-area-based technique is proposed to enhance and to speed up the process of MCA .
+The effectiveness of our proposed detection system is evaluated using KDD Cup 99 data set , and the influences of both non-normalized data and normalized data on the performance of the proposed detection system are examined .
+The effectiveness of our proposed detection system is evaluated using KDD Cup 99 data set , and the influences of both non-normalized data and normalized data on the performance of the proposed detection system are examined .
+The results show that our system outperforms two other previously developed state-of-the-art approaches in terms of detection accuracy . © 1990-2012 IEEE .

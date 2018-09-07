@@ -1,0 +1,6 @@
+flooding 75.00%
+DoS 25.00%
+
+page access behavior
+
+In this paper , we propose HTTP-GET flood detection techniques based on analysis of page access behavior.We propose two detection algorithms , one is focusing on a browsing order of pages and the other is focusing on a correlation with browsing time to page information size .

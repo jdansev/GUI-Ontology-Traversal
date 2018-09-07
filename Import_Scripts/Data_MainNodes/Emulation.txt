@@ -1,0 +1,3 @@
+emulation
+
+In a hostile environment, an attacker may modify the air interface of a Cognitive Radio (CR) to mimic a primary user signal’s characteristics, thereby causing legitimate secondary users to erroneously identify the attacker as a primary user. We coin the term primary user emulation (PUE) attack to refer to this attack.

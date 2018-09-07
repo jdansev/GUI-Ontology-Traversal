@@ -1,0 +1,5 @@
+﻿Denial of Service 100.00%
+
+in-packet Bloom-filter-based source-routing architecture
+
+﻿Self-routing denial-of-service resistant capabilities using in-packet bloom filters . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-77954925208 & doi=10.1109 % 2fEC2ND.2009.14 & partnerID=40 & md5=bf92d9634e247f542d7950187fd76425 ABSTRACT : In this paper , we propose and analyze an in-packet Bloom-filter-based source-routing architecture resistant to Distributed Denial-of-Service attacks .

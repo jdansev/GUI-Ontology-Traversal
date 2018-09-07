@@ -1,0 +1,9 @@
+﻿probe 66.67%
+network 33.33%
+
+binary particle swarm optimization ( BPSO ) and random forests ( RF ) algorithm
+
+Different classification techniques for identifying various attacks have been proposed in the literature .
+In this paper we propose and implement a hybrid classifier based on binary particle swarm optimization ( BPSO ) and random forests ( RF ) algorithm for the classification of PROBE attacks in a network .
+We also compare the performance of our proposed classifier with eight other well-known classifiers and the results show that the performance achieved by the proposed classifier is much better than the other approaches . © 2011 IEEE .
+We also compare the performance of our proposed classifier with eight other well-known classifiers and the results show that the performance achieved by the proposed classifier is much better than the other approaches . © 2011 IEEE .

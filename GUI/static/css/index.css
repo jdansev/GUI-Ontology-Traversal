@@ -1,0 +1,542 @@
+body {
+  min-width: 1200px;
+}
+
+.flex-item {
+  width: 300px;
+}
+
+#gui-main {
+  display: flex;
+  justify-content: center;
+  height: calc(100vh - 70px);
+  min-height: 400px;
+}
+
+#node-network {
+  width: 100%;
+  height: 100%;
+}
+
+#node-details {
+  border-right: 0;
+  border: 1px solid lightgray;
+  display: none;
+  width: 450px;
+}
+
+#panel-placeholder {
+  background-color: #efefef;
+  border-right: 0;
+  border: 1px solid lightgray;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 450px;
+}
+
+#panel-placeholder  p {
+  color: gray;
+  width: 100%;
+}
+
+#panel-placeholder > div {
+  height: 150px;
+  position: absolute;
+  right: calc(50% - 125px);
+  top: calc(50% - 50px);
+  width: 250px;
+}
+
+#attack-info {
+  position: relative;
+  height: 50%;
+}
+
+#defense-info {
+  border-top: 1px solid lightgray;
+  height: 50%;
+  position: relative;
+}
+
+.box-label {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid lightgray;
+  font-family: 'Chivo';
+  height: 25px;
+  line-height: 25px;
+  padding: 0 8px;
+  position: relative;
+}
+
+#attack-name, #defense-name {
+  font-family: 'Chivo';
+  font-size: 25px;
+  margin: 0;
+  max-height: calc(30% - 25px);
+  overflow: hidden;
+  padding: 10px;
+}
+
+#attack-details, #defense-details {
+  font-family: 'Chivo';
+  padding: 10px;
+  padding-top: 0;
+  margin: 0;
+  max-height: calc(70% - 25px);
+  overflow: auto;
+}
+
+.head {
+  position: relative;
+  height: 70px;
+  background-color: #1c2329;
+}
+
+.head > div {
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+}
+
+#title-div {
+  padding: 0 10px;
+  width: 550px;
+}
+
+#title {
+  font-family: 'Arvo', serif;
+  font-size: 24px;
+  color: white;
+  line-height: 32px;
+  padding-left: 10px;
+}
+
+#search-div {
+  padding: 0 15px;
+  text-align: center;
+  float: right;
+}
+
+.flat-btn-div {
+  padding-right: 15px;
+  float: right;
+  text-align: center;
+  position: relative;
+}
+
+.comment-highlight-div {
+  background: none;
+  outline: none;
+}
+
+#comment-highlight-btn-img {
+  height: 25px;
+  /*border: 1px solid red;*/
+  margin-top: 5px;
+}
+
+
+.flat-btn {
+  height: 34px;
+  border: 1px solid #7CBDBA;
+  border-radius: 0.2em;
+  background: none;
+  font: normal 100%/1.5 Verdana, sans-serif;
+  font-size: 10px;
+  color: #7CBDBA;
+  outline: none;
+  line-height: 3em;
+  padding: 0 1em;
+  background-clip: padding-box;
+  margin-right: 1em;
+  width: 100%;
+}
+
+.flat-btn:hover {
+  -webkit-transition-duration: 0.1s;
+  background: #34495e;
+}
+
+.flat-btn:active {
+  background: #34495e;
+}
+
+.sliding-panel-wrapper {
+  right: 0px;
+  width: 450px;
+  position: absolute;
+  height: 600px;
+  overflow: hidden;
+
+  border: 1px dashed red;
+}
+
+.sliding-panel-div {
+  border: 1px solid lightgray;
+  border-top: 0;
+  right: -450px;
+  position: absolute;
+  width: 450px;
+  height: 600px;
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.sliding-panel-div > div {
+  margin: 5px 0;
+}
+
+.sliding-panel-div h2 {
+  font-family: 'Arial';
+  font-size: 30px;
+}
+
+.box-label-title {
+  float: left;
+}
+
+#comment-count {
+  float: right;
+  margin-right: 2px;
+}
+
+.icon {
+  height: 100%;
+  float: right;
+  margin: 0 2px;
+  padding: 0 3px;
+}
+.icon span {
+  color: black;
+  z-index: 1;
+}
+.icon:hover span {
+  color: gray;
+}
+#comments-div-wrapper {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+#comments-div {
+  bottom: -200px;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  border: none;
+  border-top: 1px solid lightgray;
+  background-color: white;
+  overflow: scroll;
+}
+.left-panel {
+  flex-grow: 5;
+  border: 1px solid lightgray;
+  border-right: 0;
+  position: relative;
+}
+
+#comment-list {
+  padding-top: 10px;
+}
+#comment-box {
+  height: 80px;
+  padding-bottom: 20px;
+}
+.comment-group {
+  padding: 0 30px;
+  padding-top: 5px;
+  /*padding-bottom: 5px;*/
+}
+#add-comment-btn-div {
+  padding: 0 30px;
+}
+
+#gui-buttons {
+  top: 0;
+  right: 0;
+  padding: 5px;
+  position: absolute;
+}
+
+/* Auto Complete Searchbar */
+input {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+.basic-btn {
+  background: none;
+}
+
+.input-group {
+  position: relative;
+  text-align: left;
+  padding: 5px 0;
+  width: calc(100% - 30px);
+}
+.input-group label {
+  margin: 0;
+  font-family: 'Times';
+  font-size: 14px;
+}
+.text-field {
+  margin: 0;
+  font: 13px Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 7px;
+  outline: none;
+  resize: none;
+}
+.user-input {
+  width: 100%;
+  border: 1px solid lightgray;
+  background-color: white
+  /*box-shadow: 1px 1px 2px #E3E3E3;
+  -moz-box-shadow: 1px 1px 2px #E3E3E3;
+  -webkit-box-shadow: 1px 1px 2px #E3E3E3;*/
+}
+.searchbar {
+  width: 400px;
+}
+.searchbar:focus{
+  border: 1px solid #3498db;
+}
+.autocomplete-suggestion {
+  padding: 10px 5px;
+  font-size: 1.2em;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #313131;
+}
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #fff;
+  cursor: default;
+  overflow: auto;
+  font-size: 62.5%;
+}
+.autocomplete-selected { background: #f0f0f0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399ff; }
+
+
+
+
+/* Base styles for the element that has a tooltip */
+[data-tooltip],
+.tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+/* Base styles for the entire tooltip */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after {
+  position: absolute;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition:
+      opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -webkit-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    -moz-transition:
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        -moz-transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+    transition:
+        opacity 0.2s ease-in-out,
+        visibility 0.2s ease-in-out,
+        transform 0.2s cubic-bezier(0.71, 1.7, 0.77, 1.24);
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform:    translate3d(0, 0, 0);
+  transform:         translate3d(0, 0, 0);
+  pointer-events: none;
+}
+
+/* Show the entire tooltip on hover and focus */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+/* Base styles for the tooltip's directional arrow */
+.tooltip:before,
+[data-tooltip]:before {
+  z-index: 1001;
+  border: 6px solid transparent;
+  background: transparent;
+  content: "";
+}
+
+/* Base styles for the tooltip's content area */
+.tooltip:after,
+[data-tooltip]:after {
+  z-index: 1000;
+  padding: 8px;
+  width: 100px;
+  background-color: #000;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+/* Directions */
+
+/* Top (default) */
+[data-tooltip]:before,
+[data-tooltip]:after,
+.tooltip:before,
+.tooltip:after,
+.tooltip-top:before,
+.tooltip-top:after {
+  bottom: 100%;
+  left: 50%;
+}
+
+[data-tooltip]:before,
+.tooltip:before,
+.tooltip-top:before {
+  margin-left: -6px;
+  margin-bottom: -12px;
+  border-top-color: #000;
+  border-top-color: hsla(0, 0%, 20%, 0.9);
+}
+
+/* Horizontally align top/bottom tooltips */
+[data-tooltip]:after,
+.tooltip:after,
+.tooltip-top:after {
+  margin-left: -80px;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after,
+[data-tooltip]:focus:before,
+[data-tooltip]:focus:after,
+.tooltip:hover:before,
+.tooltip:hover:after,
+.tooltip:focus:before,
+.tooltip:focus:after,
+.tooltip-top:hover:before,
+.tooltip-top:hover:after,
+.tooltip-top:focus:before,
+.tooltip-top:focus:after {
+  -webkit-transform: translateY(-12px);
+  -moz-transform:    translateY(-12px);
+  transform:         translateY(-12px);
+}
+
+/* Left */
+.tooltip-left:before,
+.tooltip-left:after {
+  right: 100%;
+  bottom: 50%;
+  left: auto;
+}
+
+.tooltip-left:before {
+  margin-left: 0;
+  margin-right: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-left-color: #000;
+  border-left-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-left:hover:before,
+.tooltip-left:hover:after,
+.tooltip-left:focus:before,
+.tooltip-left:focus:after {
+  -webkit-transform: translateX(-12px);
+  -moz-transform:    translateX(-12px);
+  transform:         translateX(-12px);
+}
+
+/* Bottom */
+.tooltip-bottom:before,
+.tooltip-bottom:after {
+  top: 100%;
+  bottom: auto;
+  left: 50%;
+}
+
+.tooltip-bottom:before {
+  margin-top: -12px;
+  margin-bottom: 0;
+  border-top-color: transparent;
+  border-bottom-color: #000;
+  border-bottom-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-bottom:hover:before,
+.tooltip-bottom:hover:after,
+.tooltip-bottom:focus:before,
+.tooltip-bottom:focus:after {
+  -webkit-transform: translateY(12px);
+  -moz-transform:    translateY(12px);
+  transform:         translateY(12px);
+}
+
+/* Right */
+.tooltip-right:before,
+.tooltip-right:after {
+  bottom: 50%;
+  left: 100%;
+}
+
+.tooltip-right:before {
+  margin-bottom: 0;
+  margin-left: -12px;
+  border-top-color: transparent;
+  border-right-color: #000;
+  border-right-color: hsla(0, 0%, 20%, 0.9);
+}
+
+.tooltip-right:hover:before,
+.tooltip-right:hover:after,
+.tooltip-right:focus:before,
+.tooltip-right:focus:after {
+  -webkit-transform: translateX(12px);
+  -moz-transform:    translateX(12px);
+  transform:         translateX(12px);
+}
+
+/* Move directional arrows down a bit for left/right tooltips */
+.tooltip-left:before,
+.tooltip-right:before {
+  top: 3px;
+}
+
+/* Vertically center tooltip content for left/right tooltips */
+.tooltip-left:after,
+.tooltip-right:after {
+  margin-bottom: -16px;
+  margin-left: 0;
+}

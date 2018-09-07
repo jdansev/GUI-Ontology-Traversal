@@ -1,0 +1,7 @@
+﻿DDoS 100.00%
+
+flow correlation coefficient
+
+Based on this , we proposed a discrimination algorithm using the flow correlation coefficient as a similarity metric among suspicious flows .
+We formulated the problem , and presented theoretical proofs for the feasibility of the proposed discrimination method in theory .
+Our extensive experiments confirmed the theoretical analysis and demonstrated the effectiveness of the proposed method in practice . © 1990-2012 IEEE .

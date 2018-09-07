@@ -1,0 +1,7 @@
+﻿wormhole 100.00%
+
+distance vector ( DV ) -based robust localization ( DVRL ) scheme
+
+In this paper , we address the problem of making sensors in WSNs locate their positions in an environment in which there exists the threat of wormhole attacks .
+We propose a distance vector ( DV ) -based robust localization ( DVRL ) scheme which can fight against wormhole attacks in wireless sensors networks without increasing hardware complexity or incurring too much computational cost .
+Experiment results show that the proposed scheme is capable of fighting against wormhole attacks while improving accuracy compared to the basic DV-Hop algorithm . © 2011 Binary Information Press December , 2011 .

@@ -1,0 +1,6 @@
+﻿DoS 100.00%
+
+hybrid-theoretical framework
+
+A hybrid-theoretical framework is proposed which is comprised of a physical control subsystem , a cyber security subsystem , and an interface which integrates the control design with the security configuration .
+Finally , the proposed method is applied to the voltage regulation of the Uninterrupted Power System ( UPS ) . © 2015 , Institute of Control , Robotics and Systems and The Korean Institute of Electrical Engineers and Springer-Verlag Berlin Heidelberg .

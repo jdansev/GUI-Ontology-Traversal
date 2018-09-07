@@ -1,0 +1,7 @@
+﻿DDoS 75.00%
+detect 25.00%
+
+probabilistic route selection algorithm
+
+To solve this problem , we propose a probabilistic route selection algorithm to trace the attacker 's real origin .
+We simulate for the propose of validation this algorithm by using OPNET14.0 in terms of false positive and required number of packets to trace DDoS attack traffic source . © 2011 IEEE .

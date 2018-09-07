@@ -1,0 +1,8 @@
+DDoS 66.67%
+denial-of-service 33.33%
+
+A filter-based DDoS defense
+
+A filter-based DDoS defense is considered as an effective approach , since it can defend against both attacks : victim resource consumption and link congestion .
+However , existing filter-based approaches do not address necessary properties for viable DDoS solutions : how to practically identify attack paths , how to propagate filters to the best locations ( filter routers ) , and how to manage many filters to maximize the defense effectiveness .
+We propose a novel mechanism , termed PFS ( Probabilistic Filter Scheduling ) , to efficiently defeat DDoS attacks and to satisfy the necessary properties .

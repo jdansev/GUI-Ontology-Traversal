@@ -1,0 +1,8 @@
+sybil 100.00%
+
+rule-based anomaly detection system
+
+This work restrains its focus on how to defend against a particularly harmful form of attack , the Sybil attack .
+This paper presents a rule-based anomaly detection system , called RADS , which monitors and timely detects Sybil attacks in large-scale WSNs .
+At its core , the proposed expert system relies on an ultra-wideband ( UWB ) ranging-based detection algorithm that operates in a distributed manner requiring no cooperation or information sharing between the sensor nodes in order to perform the anomaly detection tasks .
+The feasibility of the proposed approach is proven analytically , while the performance of RADS in exposing Sybil attacks is extensively assessed both mathematically and numerically .

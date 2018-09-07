@@ -1,0 +1,6 @@
+denial-of-service 100.00%
+
+digital signatures
+
+In this paper , we propose a DoS mitigation technique that uses digital signatures to verify legitimate packets , and drop packets that do not pass the verification .
+Analytical results show that Nash equilibrium can be attained for players in the proposed game , in which significant benefits can be provided to forwarders such that many of the bad packets will be eliminated by verification .

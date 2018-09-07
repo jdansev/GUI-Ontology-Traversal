@@ -1,0 +1,7 @@
+﻿Denial-of-Service 100.00%
+
+proactive server roaming
+
+﻿Proactive server roaming for mitigating Denial-of-Service attacks . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84893960790 & doi=10.1109 % 2fITRE.2003.1270623 & partnerID=40 & md5=08622f22418b0c272ed74ce97f9070bf ABSTRACT : We propose a framework based on proactive server roaming to mitigate the effects of Denial-of-Service ( DoS ) attacks .
+We present algorithms that are secure , distributed , randomized , and adaptive for triggering the roaming and determining the next server to roam to .
+We propose some modifications to the state recovery process of existing TCP connection-migration schemes to suit roaming .

@@ -1,0 +1,10 @@
+﻿Botnet 100.00%
+
+fuzzy pattern recognition techniques
+
+In this paper , we propose a behavior-based botnet detection system based on fuzzy pattern recognition techniques .
+Membership functions can be easily altered , removed , or added to enhance the capability of the proposed system .
+In addition , to improve the overall system performance , we develop a traffic reduction algorithm to reduce the amount of network traffic required to be inspected by the proposed system .
+In addition , to improve the overall system performance , we develop a traffic reduction algorithm to reduce the amount of network traffic required to be inspected by the proposed system .
+Performance evaluation results based on real traces show that the proposed system can reduce more than 70 % input raw packet traces and achieve a high detection rate ( about 95 % ) and a low false positive rates ( 0-3.08 % ) .
+Furthermore , the proposed FPRF algorithm is resource-efficient and can identify inactive botnets to indicate potential vulnerable hosts . © 2011 Elsevier B.V. All rights reserved .

@@ -1,0 +1,5 @@
+denial of service 100.00%
+
+path identification ( Pi ) and Internet control message protocol ( ICMP ) traceback ( iTrace ) methods
+
+On the basis of path identification ( Pi ) and Internet control message protocol ( ICMP ) traceback ( iTrace ) methods , a packet track and traceback mechanism is proposed , which features rapid response and high accuracy .

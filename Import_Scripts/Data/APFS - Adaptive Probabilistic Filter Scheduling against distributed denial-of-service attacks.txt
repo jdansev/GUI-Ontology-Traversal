@@ -1,0 +1,7 @@
+﻿DDoS 66.67%
+denial-of-service 33.33%
+
+Adaptive Probabilistic Filter Scheduling ( APFS )
+
+﻿APFS : Adaptive Probabilistic Filter Scheduling against distributed denial-of-service attacks . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-84888861138 & doi=10.1016 % 2fj.cose.2013.09.002 & partnerID=40 & md5=a8afec959923f93c618b23bf89129022 ABSTRACT : Distributed denial-of-service ( DDoS ) attacks are considered to be among the most crucial security challenges in current networks because they significantly disrupt the availability of a service by consuming extreme amount of resource and/or by creating link congestions .
+We propose a novel mechanism , called Adaptive Probabilistic Filter Scheduling ( APFS ) , that effectively defends against DDoS attacks and also satisfies the three necessary properties .

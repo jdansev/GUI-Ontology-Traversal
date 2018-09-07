@@ -1,0 +1,3 @@
+﻿synchronization
+
+Time synchronization implementations have been developed specifically for sensor networks. Three of the most prominent are Reference Broadcast Synchronization (RBS) Timing-sync Protocol for Sensor Networks (TPSN), and Flooding Time Synchronization Protocol FTSP).

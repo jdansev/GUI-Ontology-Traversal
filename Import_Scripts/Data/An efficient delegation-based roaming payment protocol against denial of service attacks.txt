@@ -1,0 +1,8 @@
+﻿Denial of Service 100.00%
+
+delegation-based roaming payment protocol
+
+﻿An efficient delegation-based roaming payment protocol against denial of service attacks . https : //www.scopus.com/inward/record.uri ? eid=2-s2.0-81455149033 & doi=10.1109 % 2fICECC.2011.6067856 & partnerID=40 & md5=14a7505cc744df305e413911d1cc780e ABSTRACT : The payment system for many kinds of mobile devices , such as smart phones , PDAs and mobile tablets , will be increasingly developed in the near future .
+Youn and Lim in 2010 proposed an improved delegation-based authentication protocol to add the unlinkability property for protecting user 's privacy .
+The denial of service ( DoS ) threats on Youn and Lim , and multiple VLRs have also been considered .
+The proposed protocol is specially suitable for off-line fast payments and provides buyer 's privacy by applying anonymity and unlinkability techniques .
