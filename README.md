@@ -1,4 +1,4 @@
-# GUI-Ontology-Traversal
+# Ontology Traversal
 
 ![alt text](./demo.png)
 
