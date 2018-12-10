@@ -4,15 +4,10 @@
 
 ## Setup
 ```
-# clone this repository
-git clone https://github.com/jdansev/GUI-Ontology-Traversal
-
-# go into the directory
-cd GUI-Ontology-Traversal
-
-# start the server
-python3 manage.py runserver
+git clone https://github.com/jdansev/GUI-Ontology-Traversal    # clone the repo
+cd GUI-Ontology-Traversal                                      # navigate to directory
+python3 manage.py runserver                                    # start the server
 ```
 
-## To use
-The web app is accessible in your browser at `127.0.0.1:8000`
+## Usage
+Point your web browser to `127.0.0.1:8000`
