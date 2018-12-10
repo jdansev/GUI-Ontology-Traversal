@@ -10,4 +10,4 @@ python3 manage.py runserver                                    # start the serve
 ```
 
 ## Usage
-Point your web browser to `127.0.0.1:8000`
+Point your browser to `127.0.0.1:8000`
