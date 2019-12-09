@@ -1,4 +1,4 @@
-# Ontology Traversal
+# Traversal of an Ontology
 
 ![alt text](./demo.png)
 
